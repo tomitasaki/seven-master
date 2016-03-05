@@ -46,12 +46,10 @@ class animeviewCollectionViewController: UICollectionViewController {
             adanalabel.text =  "たえ"
         }else if number == 2{
             adanalabel.text =  "シュガー"
-   
         }else if number == 3{
             adanalabel.text =  "つね"
         }else {
             adanalabel.text = "いわのこ"
-            
         }
         if number >= 0 && number <= 5{
             cuorselabel.text = "iphone"

@@ -61,80 +61,70 @@
                                 <rect key="frame" x="209" y="251" width="60" height="30"/>
                                 <state key="normal" title="あいほん"/>
                                 <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="6hM-DM-KUA"/>
-                                    <segue destination="NQ8-2J-uai" kind="presentation" id="1Xx-aI-O8O"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5I-iL-HPH">
-                                <rect key="frame" x="69" y="144" width="33" height="30"/>
-                                <state key="normal" title="DTM"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="xoq-Nf-9rV"/>
-                                    <segue destination="DB6-h8-gdt" kind="presentation" id="VA2-rW-q60"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-6S-lfC">
-                                <rect key="frame" x="230" y="28" width="30" height="30"/>
-                                <state key="normal" title="映像"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="nVc-yO-V0u"/>
-                                    <segue destination="Nvp-qR-Qvu" kind="presentation" id="bGz-T6-YDd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2h-X3-2BV">
-                                <rect key="frame" x="55" y="258" width="61" height="30"/>
-                                <state key="normal" title="mediaart"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="OuX-uT-m1e"/>
-                                    <segue destination="rwY-Aq-UQd" kind="presentation" id="3P1-HH-f47"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-1N-VYT">
-                                <rect key="frame" x="76" y="477" width="34" height="30"/>
-                                <state key="normal" title="unity"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="E8k-FR-Ooe"/>
-                                    <segue destination="WY5-us-MT1" kind="presentation" id="924-AO-597"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-IT-YYD">
-                                <rect key="frame" x="214" y="477" width="46" height="34"/>
-                                <state key="normal" title="webP"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="i46-ko-W5r"/>
-                                    <segue destination="pOS-Qf-kXB" kind="presentation" id="b3K-Z5-66q"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yq7-x5-khw">
-                                <rect key="frame" x="63" y="28" width="47" height="30"/>
-                                <state key="normal" title="androil"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="Ueq-t2-ffD"/>
-                                    <segue destination="HbD-tc-baq" kind="presentation" id="Ul4-MP-5rA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DH3-ed-kZV">
-                                <rect key="frame" x="217" y="367" width="40" height="30"/>
-                                <state key="normal" title="webD"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="F81-o2-j8X"/>
-                                    <segue destination="dX0-Ii-o9o" kind="presentation" identifier="window" id="GEA-wD-mAI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAa-2h-zhv">
-                                <rect key="frame" x="55" y="367" width="55" height="30"/>
-                                <state key="normal" title="maicura"/>
-                                <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="4gD-S0-b1g"/>
-                                    <segue destination="MgY-Gh-3Q2" kind="presentation" id="Pg7-XY-4SA"/>
+                                    <segue destination="NQ8-2J-uai" kind="presentation" identifier="select10" modalTransitionStyle="coverVertical" id="1Xx-aI-O8O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G45-zu-fCt">
                                 <rect key="frame" x="217" y="136" width="45" height="30"/>
                                 <state key="normal" title="あにめ"/>
                                 <connections>
-                                    <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="SPu-sc-MNG"/>
-                                    <segue destination="pxf-w6-1rX" kind="presentation" identifier="select1" id="H4m-eB-Dmw"/>
+                                    <segue destination="pxf-w6-1rX" kind="presentation" identifier="select1" modalTransitionStyle="crossDissolve" id="H4m-eB-Dmw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5I-iL-HPH">
+                                <rect key="frame" x="69" y="144" width="33" height="30"/>
+                                <state key="normal" title="DTM"/>
+                                <connections>
+                                    <segue destination="DB6-h8-gdt" kind="presentation" modalTransitionStyle="crossDissolve" id="VA2-rW-q60"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2h-X3-2BV">
+                                <rect key="frame" x="55" y="258" width="61" height="30"/>
+                                <state key="normal" title="mediaart"/>
+                                <connections>
+                                    <segue destination="rwY-Aq-UQd" kind="presentation" modalTransitionStyle="coverVertical" id="3P1-HH-f47"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-1N-VYT">
+                                <rect key="frame" x="76" y="477" width="34" height="30"/>
+                                <state key="normal" title="unity"/>
+                                <connections>
+                                    <segue destination="WY5-us-MT1" kind="presentation" modalTransitionStyle="crossDissolve" id="924-AO-597"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-IT-YYD">
+                                <rect key="frame" x="214" y="477" width="46" height="34"/>
+                                <state key="normal" title="webP"/>
+                                <connections>
+                                    <segue destination="pOS-Qf-kXB" kind="presentation" modalTransitionStyle="coverVertical" id="b3K-Z5-66q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yq7-x5-khw">
+                                <rect key="frame" x="63" y="28" width="47" height="30"/>
+                                <state key="normal" title="androil"/>
+                                <connections>
+                                    <segue destination="HbD-tc-baq" kind="presentation" identifier="select2" modalTransitionStyle="coverVertical" id="Ul4-MP-5rA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DH3-ed-kZV">
+                                <rect key="frame" x="217" y="367" width="40" height="30"/>
+                                <state key="normal" title="webD"/>
+                                <connections>
+                                    <segue destination="dX0-Ii-o9o" kind="presentation" identifier="window" modalTransitionStyle="coverVertical" id="GEA-wD-mAI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAa-2h-zhv">
+                                <rect key="frame" x="55" y="367" width="55" height="30"/>
+                                <state key="normal" title="maicura"/>
+                                <connections>
+                                    <segue destination="MgY-Gh-3Q2" kind="presentation" identifier="select6" modalTransitionStyle="coverVertical" id="Pg7-XY-4SA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-6S-lfC">
+                                <rect key="frame" x="230" y="28" width="30" height="30"/>
+                                <state key="normal" title="映像"/>
+                                <connections>
+                                    <segue destination="Nvp-qR-Qvu" kind="presentation" identifier="select1" modalTransitionStyle="crossDissolve" id="bGz-T6-YDd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -463,7 +453,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="za8-wW-B7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-104" y="711"/>
+            <point key="canvasLocation" x="-96" y="813"/>
         </scene>
         <!--Nuityview Collection View Controller-->
         <scene sceneID="BSC-YP-hZu">

@@ -85,15 +85,7 @@ class webDviewCollectionViewController: UICollectionViewController {
             
         }
     }
-    
-    //   if number <= 10 {
-    //    cuorselabel.text = "iphone"
-    
-    //     cuorselabel.text = "iphone"
-    // }else if number == 1{
-    //    adanalabel.text =  "ゆーりんちー"
-    //}else {
-    //   adanalabel.text = "いっしー"
+
     
     
     override func didReceiveMemoryWarning() {
