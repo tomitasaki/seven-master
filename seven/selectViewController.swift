@@ -21,33 +21,36 @@ class selectViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func 1butten (){
-    self.performSegueWithIdentifier("select1", sender: nil)
+    @IBAction func butten1 (){
+        self.performSegueWithIdentifier("select1", sender: nil)
     }
-    @IBAction func 2butten(){
+    @IBAction func butten2(){
         self.performSegueWithIdentifier("select2", sender: nil)
     }
-    @IBAction func 3butten(){
-    self.performSegueWithIdentifier("select3", sender: nil)
+    @IBAction func butten3(){
+        self.performSegueWithIdentifier("select3", sender: nil)
     }
-    @IBAction func 4butten(){
+    @IBAction func butten4(){
         self.performSegueWithIdentifier("select4", sender: nil)
     }
-    @IBAction func 5butten(){
-    self.performSegueWithIdentifier("select5", sender: nil)
+    @IBAction func butten5(){
+        self.performSegueWithIdentifier("select5", sender: nil)
     }
-    @IBAction func 6butten(){
+    @IBAction func butten6(){
         self.performSegueWithIdentifier("select6", sender: nil)
-    }@IBAction func 7butten(){
-    self.performSegueWithIdentifier("select7", sender: nil)
     }
-    @IBAction func 8butten(){
+    @IBAction func butten7(){
+        self.performSegueWithIdentifier("select7", sender: nil)
+    }
+    @IBAction func butten8(){
         self.performSegueWithIdentifier("select8", sender: nil)
-    }@IBAction func 9butten(){
-    self.performSegueWithIdentifier("select9", sender: nil)
     }
-    @IBAction func 10butten(){
+    @IBAction func butten9(){
+        self.performSegueWithIdentifier("select9", sender: nil)
+    }
+    @IBAction func butten10(){
         self.performSegueWithIdentifier("select10", sender: nil)
 
 
-
+}
+}

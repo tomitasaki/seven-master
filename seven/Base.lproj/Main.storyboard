@@ -61,6 +61,7 @@
                                 <rect key="frame" x="209" y="251" width="60" height="30"/>
                                 <state key="normal" title="あいほん"/>
                                 <connections>
+                                    <action selector="butten1" destination="ztx-2i-0V7" eventType="touchUpInside" id="K3R-Y3-02S"/>
                                     <segue destination="NQ8-2J-uai" kind="presentation" identifier="select10" modalTransitionStyle="coverVertical" id="1Xx-aI-O8O"/>
                                 </connections>
                             </button>
@@ -68,6 +69,7 @@
                                 <rect key="frame" x="217" y="136" width="45" height="30"/>
                                 <state key="normal" title="あにめ"/>
                                 <connections>
+                                    <action selector="butten2" destination="ztx-2i-0V7" eventType="touchUpInside" id="eBD-W7-LCo"/>
                                     <segue destination="pxf-w6-1rX" kind="presentation" identifier="select1" modalTransitionStyle="crossDissolve" id="H4m-eB-Dmw"/>
                                 </connections>
                             </button>
@@ -75,6 +77,7 @@
                                 <rect key="frame" x="69" y="144" width="33" height="30"/>
                                 <state key="normal" title="DTM"/>
                                 <connections>
+                                    <action selector="butten5" destination="ztx-2i-0V7" eventType="touchUpInside" id="MWp-ko-KTa"/>
                                     <segue destination="DB6-h8-gdt" kind="presentation" modalTransitionStyle="crossDissolve" id="VA2-rW-q60"/>
                                 </connections>
                             </button>
@@ -82,6 +85,7 @@
                                 <rect key="frame" x="55" y="258" width="61" height="30"/>
                                 <state key="normal" title="mediaart"/>
                                 <connections>
+                                    <action selector="butten6" destination="ztx-2i-0V7" eventType="touchUpInside" id="WnZ-Wt-1nx"/>
                                     <segue destination="rwY-Aq-UQd" kind="presentation" modalTransitionStyle="coverVertical" id="3P1-HH-f47"/>
                                 </connections>
                             </button>
@@ -89,6 +93,7 @@
                                 <rect key="frame" x="76" y="477" width="34" height="30"/>
                                 <state key="normal" title="unity"/>
                                 <connections>
+                                    <action selector="butten8" destination="ztx-2i-0V7" eventType="touchUpInside" id="PFD-3z-8VM"/>
                                     <segue destination="WY5-us-MT1" kind="presentation" modalTransitionStyle="crossDissolve" id="924-AO-597"/>
                                 </connections>
                             </button>
@@ -96,6 +101,7 @@
                                 <rect key="frame" x="214" y="477" width="46" height="34"/>
                                 <state key="normal" title="webP"/>
                                 <connections>
+                                    <action selector="butten9" destination="ztx-2i-0V7" eventType="touchUpInside" id="X2W-Ps-ql0"/>
                                     <segue destination="pOS-Qf-kXB" kind="presentation" modalTransitionStyle="coverVertical" id="b3K-Z5-66q"/>
                                 </connections>
                             </button>
@@ -103,6 +109,7 @@
                                 <rect key="frame" x="63" y="28" width="47" height="30"/>
                                 <state key="normal" title="androil"/>
                                 <connections>
+                                    <action selector="butten4" destination="ztx-2i-0V7" eventType="touchUpInside" id="SHH-87-9HY"/>
                                     <segue destination="HbD-tc-baq" kind="presentation" identifier="select2" modalTransitionStyle="coverVertical" id="Ul4-MP-5rA"/>
                                 </connections>
                             </button>
@@ -110,6 +117,7 @@
                                 <rect key="frame" x="217" y="367" width="40" height="30"/>
                                 <state key="normal" title="webD"/>
                                 <connections>
+                                    <action selector="butten10" destination="ztx-2i-0V7" eventType="touchUpInside" id="ilB-mp-4Xj"/>
                                     <segue destination="dX0-Ii-o9o" kind="presentation" identifier="window" modalTransitionStyle="coverVertical" id="GEA-wD-mAI"/>
                                 </connections>
                             </button>
@@ -117,6 +125,7 @@
                                 <rect key="frame" x="55" y="367" width="55" height="30"/>
                                 <state key="normal" title="maicura"/>
                                 <connections>
+                                    <action selector="butten7" destination="ztx-2i-0V7" eventType="touchUpInside" id="6wK-Bs-KXj"/>
                                     <segue destination="MgY-Gh-3Q2" kind="presentation" identifier="select6" modalTransitionStyle="coverVertical" id="Pg7-XY-4SA"/>
                                 </connections>
                             </button>
@@ -124,6 +133,7 @@
                                 <rect key="frame" x="230" y="28" width="30" height="30"/>
                                 <state key="normal" title="映像"/>
                                 <connections>
+                                    <action selector="butten3" destination="ztx-2i-0V7" eventType="touchUpInside" id="ddc-zH-yqU"/>
                                     <segue destination="Nvp-qR-Qvu" kind="presentation" identifier="select1" modalTransitionStyle="crossDissolve" id="bGz-T6-YDd"/>
                                 </connections>
                             </button>
