@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var haikeiimage : UIImageView!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +23,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     @IBAction func open(){
         self.performSegueWithIdentifier("select", sender: nil)
-        
-        
     }
 }
+

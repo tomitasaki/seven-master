@@ -1,28 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gFg-Jv-z2X">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="PQL-af-HXR">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="seven" customModuleProvider="target" sceneMemberID="viewController">
-                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0rj-f1-5dz">
+                <viewController id="gFg-Jv-z2X" customClass="ViewController" customModule="seven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JRS-YP-VdB"/>
+                        <viewControllerLayoutGuide type="bottom" id="OAb-Qb-pEZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pIg-A4-OCI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <state key="normal" title="Button"/>
-                        <connections>
-                            <action selector="open" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdu-vg-Giq"/>
-                            <segue destination="ztx-2i-0V7" kind="presentation" identifier="select" modalTransitionStyle="crossDissolve" id="tMO-3d-An6"/>
-                        </connections>
-                    </button>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2016-03-05 16.51.27.png" translatesAutoresizingMaskIntoConstraints="NO" id="a8a-kG-AcR">
+                                <rect key="frame" x="0.0" y="66" width="320" height="425"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGh-5s-8Tl">
+                                <rect key="frame" x="129" y="248" width="35" height="30"/>
+                                <state key="normal" title="open">
+                                    <color key="titleColor" red="0.96695965920000004" green="0.98237126890000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="open" destination="gFg-Jv-z2X" eventType="touchUpInside" id="6qE-jx-cV2"/>
+                                    <segue destination="ztx-2i-0V7" kind="presentation" identifier="select" modalTransitionStyle="crossDissolve" id="WxD-Ac-9G4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="haikeiimage" destination="a8a-kG-AcR" id="upn-Z3-EYB"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4J1-Wv-zcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-775" y="-10"/>
+            <point key="canvasLocation" x="-61" y="130"/>
         </scene>
         <!--Select View Controller-->
         <scene sceneID="gl8-ca-JXR">
@@ -100,7 +118,7 @@
                                 <state key="normal" title="webD"/>
                                 <connections>
                                     <action selector="open" destination="ztx-2i-0V7" eventType="touchUpInside" id="F81-o2-j8X"/>
-                                    <segue destination="dX0-Ii-o9o" kind="presentation" id="GEA-wD-mAI"/>
+                                    <segue destination="dX0-Ii-o9o" kind="presentation" identifier="window" id="GEA-wD-mAI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAa-2h-zhv">
@@ -123,6 +141,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="haikeiimage" destination="XLQ-mx-EV7" id="lb0-P7-0Y0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nl9-ss-80B" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="windows-1149018_1280.jpg" id="z9E-0c-vnt">
@@ -130,7 +151,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="286" y="-4"/>
+            <point key="canvasLocation" x="283" y="-2"/>
         </scene>
         <!--Androidview Collection View Controller-->
         <scene sceneID="4yU-jy-oFm">
@@ -638,6 +659,7 @@
                     <connections>
                         <outlet property="adanalabel" destination="LKS-zv-1He" id="ofU-qe-8Jb"/>
                         <outlet property="cuorselabel" destination="fZf-Lf-oFP" id="BGP-u4-i7M"/>
+                        <outlet property="haikeiImageView" destination="wNv-Ov-ajr" id="2pg-nU-6XN"/>
                         <outlet property="meishiImageView" destination="n5z-42-0cw" id="h3p-pS-zfS"/>
                     </connections>
                 </viewController>
@@ -649,6 +671,7 @@
     <resources>
         <image name="windows-1149018_1280.jpg" width="1280" height="853"/>
         <image name="スクリーンショット 2016-03-05 15.03.22.png" width="1018" height="1296"/>
+        <image name="スクリーンショット 2016-03-05 16.51.27.png" width="686" height="750"/>
         <image name="美術館.jpg" width="1222" height="869"/>
     </resources>
 </document>

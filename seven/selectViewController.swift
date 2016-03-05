@@ -8,8 +8,8 @@
 
 import UIKit
 
-class selectViewController: UICollectionViewController {
-    
+class selectViewController: UIViewController {
+    @IBOutlet var haikeiimage : UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,9 @@ class selectViewController: UICollectionViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     @IBAction func open(){
-        self.performSegueWithIdentifier("select", sender: nil)
+        self.performSegueWithIdentifier("window", sender: nil)
     }
 }
 

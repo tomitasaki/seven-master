@@ -135,8 +135,10 @@
 		BABD09C81C8AA81400F16DFC /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09A01C8AA81400F16DFC /* iTunesArtwork@2x.png */; };
 		BABD09D41C8AADAD00F16DFC /* windows-1149018_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */; };
 		BABD09D61C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */; };
-		BABD09D81C8ABCBE00F16DFC /* selectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09D71C8ABCBE00F16DFC /* selectCollectionViewController.swift */; };
-		BABD09DA1C8ABCE200F16DFC /* VVCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09D91C8ABCE200F16DFC /* VVCollectionViewController.swift */; };
+		BABD09DC1C8AC65F00F16DFC /* C789_doornomukou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */; };
+		BABD09DE1C8AC67300F16DFC /* スクリーンショット 2016-03-05 16.45.43.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09DD1C8AC67300F16DFC /* スクリーンショット 2016-03-05 16.45.43.png */; };
+		BABD09E01C8AC75800F16DFC /* スクリーンショット 2016-03-05 16.46.12.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09DF1C8AC75800F16DFC /* スクリーンショット 2016-03-05 16.46.12.png */; };
+		BABD09E21C8AC81400F16DFC /* スクリーンショット 2016-03-05 16.51.27.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09E11C8AC81400F16DFC /* スクリーンショット 2016-03-05 16.51.27.png */; };
 		BAD4C38C1C86A7CC00540727 /* hanada_nana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */; };
 		BAD4C38D1C86A7CC00540727 /* hujii_yousuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */; };
 		BAD4C38E1C86A7CC00540727 /* hukuda_karuna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */; };
@@ -150,7 +152,6 @@
 		BAD4C3961C86A7CC00540727 /* tomita_saki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */; };
 		BAD4C3981C874BA100540727 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3971C874BA100540727 /* book.png */; };
 		BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3991C89732000540727 /* 美術館.jpg */; };
-		BAD4C3A41C8992A900540727 /* C789_doornomukou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */; };
 		BAD4C3A71C89A6E000540727 /* kubo_honami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A51C89A6E000540727 /* kubo_honami.jpg */; };
 		BAD4C3A81C89A6E000540727 /* moriizumi_ryousuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A61C89A6E000540727 /* moriizumi_ryousuke.jpg */; };
 /* End PBXBuildFile section */
@@ -307,8 +308,10 @@
 		BABD09A01C8AA81400F16DFC /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "windows-1149018_1280.jpg"; sourceTree = "<group>"; };
 		BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 15.03.22.png"; sourceTree = "<group>"; };
-		BABD09D71C8ABCBE00F16DFC /* selectCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD09D91C8ABCE200F16DFC /* VVCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C789_doornomukou.jpg; sourceTree = "<group>"; };
+		BABD09DD1C8AC67300F16DFC /* スクリーンショット 2016-03-05 16.45.43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 16.45.43.png"; sourceTree = "<group>"; };
+		BABD09DF1C8AC75800F16DFC /* スクリーンショット 2016-03-05 16.46.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 16.46.12.png"; sourceTree = "<group>"; };
+		BABD09E11C8AC81400F16DFC /* スクリーンショット 2016-03-05 16.51.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 16.51.27.png"; sourceTree = "<group>"; };
 		BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hanada_nana.jpg; sourceTree = "<group>"; };
 		BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hujii_yousuke.jpg; sourceTree = "<group>"; };
 		BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hukuda_karuna.jpg; sourceTree = "<group>"; };
@@ -322,7 +325,6 @@
 		BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomita_saki.jpg; sourceTree = "<group>"; };
 		BAD4C3971C874BA100540727 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		BAD4C3991C89732000540727 /* 美術館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美術館.jpg"; sourceTree = "<group>"; };
-		BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C789_doornomukou.jpg; sourceTree = "<group>"; };
 		BAD4C3A51C89A6E000540727 /* kubo_honami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kubo_honami.jpg; sourceTree = "<group>"; };
 		BAD4C3A61C89A6E000540727 /* moriizumi_ryousuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moriizumi_ryousuke.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -390,15 +392,15 @@
 				BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */,
 				BAD4C3971C874BA100540727 /* book.png */,
 				BAD4C3991C89732000540727 /* 美術館.jpg */,
+				BABD09E11C8AC81400F16DFC /* スクリーンショット 2016-03-05 16.51.27.png */,
+				BABD09DD1C8AC67300F16DFC /* スクリーンショット 2016-03-05 16.45.43.png */,
+				BABD09DF1C8AC75800F16DFC /* スクリーンショット 2016-03-05 16.46.12.png */,
 				BA55CADE1C8435DE00558E8E /* Main.storyboard */,
 				BA55CADA1C8435DE00558E8E /* AppDelegate.swift */,
-				BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */,
 				BA55CAE11C8435DE00558E8E /* Assets.xcassets */,
-				BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */,
-				BABD09D71C8ABCBE00F16DFC /* selectCollectionViewController.swift */,
-				BABD09791C8A930100F16DFC /* selectViewController.swift */,
-				BABD09D91C8ABCE200F16DFC /* VVCollectionViewController.swift */,
 				BA55CADC1C8435DE00558E8E /* ViewController.swift */,
+				BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */,
+				BABD09791C8A930100F16DFC /* selectViewController.swift */,
 				BA55CAE61C8435DE00558E8E /* Info.plist */,
 				BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */,
 				BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */,
@@ -632,6 +634,7 @@
 		BAD4C3801C86A7CC00540727 /* iphone */ = {
 			isa = PBXGroup;
 			children = (
+				BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */,
 				BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */,
 				BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */,
 				BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */,
@@ -765,7 +768,6 @@
 				BAD4C3931C86A7CC00540727 /* sakaue_aoi.jpg in Resources */,
 				BABD095C1C8A70A400F16DFC /* sakamoto_kazuumi.jpg in Resources */,
 				BABD09091C8A708900F16DFC /* nishimura_masakazu.jpg in Resources */,
-				BAD4C3A41C8992A900540727 /* C789_doornomukou.jpg in Resources */,
 				BABD094F1C8A70A400F16DFC /* matumoto_kisaki.jpg in Resources */,
 				BABD09C21C8AA81400F16DFC /* Icon-72@2x.png in Resources */,
 				BABD09111C8A708900F16DFC /* hiwatashi_shouhei.jpg in Resources */,
@@ -814,6 +816,8 @@
 				BABD09001C8A708900F16DFC /* harada_akira.jpg in Resources */,
 				BABD09181C8A708900F16DFC /* sugawara_sati.jpg in Resources */,
 				BABD094A1C8A70A400F16DFC /* adati_yuki.jpg in Resources */,
+				BABD09DE1C8AC67300F16DFC /* スクリーンショット 2016-03-05 16.45.43.png in Resources */,
+				BABD09E21C8AC81400F16DFC /* スクリーンショット 2016-03-05 16.51.27.png in Resources */,
 				BABD09051C8A708900F16DFC /* yamamoto_kenta.jpg in Resources */,
 				BABD09031C8A708900F16DFC /* matumoto_kanako.jpg in Resources */,
 				BABD08FC1C8A708900F16DFC /* itou_miho.jpg in Resources */,
@@ -870,6 +874,7 @@
 				BABD08FF1C8A708900F16DFC /* arai_takahiro.jpg in Resources */,
 				BABD09261C8A708900F16DFC /* onuma_rui.jpg in Resources */,
 				BABD09601C8A70A400F16DFC /* iwano_megumi.jpg in Resources */,
+				BABD09DC1C8AC65F00F16DFC /* C789_doornomukou.jpg in Resources */,
 				BABD095B1C8A70A400F16DFC /* nishimura_hana.jpg in Resources */,
 				BABD09221C8A708900F16DFC /* iwai_atuki.jpg in Resources */,
 				BABD090A1C8A708900F16DFC /* ogawara_yousuke.jpg in Resources */,
@@ -881,6 +886,7 @@
 				BABD095D1C8A70A400F16DFC /* shimizu_yoshihiro.jpg in Resources */,
 				BAD4C3A71C89A6E000540727 /* kubo_honami.jpg in Resources */,
 				BABD091B1C8A708900F16DFC /* tomita_yuusuke.jpg in Resources */,
+				BABD09E01C8AC75800F16DFC /* スクリーンショット 2016-03-05 16.46.12.png in Resources */,
 				BABD094D1C8A70A400F16DFC /* hoshiba_kiyohiro.jpg in Resources */,
 				BABD09071C8A708900F16DFC /* inoue_ayano.jpg in Resources */,
 				BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */,
@@ -912,7 +918,6 @@
 			files = (
 				BABD09681C8A75DE00F16DFC /* animeviewCollectionViewController.swift in Sources */,
 				BA55CADD1C8435DE00558E8E /* ViewController.swift in Sources */,
-				BABD09DA1C8ABCE200F16DFC /* VVCollectionViewController.swift in Sources */,
 				BABD09761C8A768C00F16DFC /* webPviewCollectionViewController.swift in Sources */,
 				BABD09701C8A764E00F16DFC /* mediaartviewCollectionViewController.swift in Sources */,
 				BA55CADB1C8435DE00558E8E /* AppDelegate.swift in Sources */,
@@ -923,7 +928,6 @@
 				BABD096C1C8A761F00F16DFC /* androidviewCollectionViewController.swift in Sources */,
 				BABD096E1C8A762F00F16DFC /* DTMviewCollectionViewController.swift in Sources */,
 				BABD097A1C8A930100F16DFC /* selectViewController.swift in Sources */,
-				BABD09D81C8ABCBE00F16DFC /* selectCollectionViewController.swift in Sources */,
 				BABD09741C8A767500F16DFC /* nuityviewCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
