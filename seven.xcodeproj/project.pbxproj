@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA55CADB1C8435DE00558E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CADA1C8435DE00558E8E /* AppDelegate.swift */; };
+		BA55CADD1C8435DE00558E8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CADC1C8435DE00558E8E /* ViewController.swift */; };
+		BA55CAE01C8435DE00558E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55CADE1C8435DE00558E8E /* Main.storyboard */; };
+		BA55CAE21C8435DE00558E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA55CAE11C8435DE00558E8E /* Assets.xcassets */; };
+		BA55CAE51C8435DE00558E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */; };
+		BA55CAF01C8435DE00558E8E /* sevenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CAEF1C8435DE00558E8E /* sevenTests.swift */; };
+		BA55CAFB1C8435DE00558E8E /* sevenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */; };
+		BA55CB091C8436A200558E8E /* resultCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */; };
+		BABD08F01C8A708900F16DFC /* asada_shion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08AF1C8A708900F16DFC /* asada_shion.jpg */; };
+		BABD08F11C8A708900F16DFC /* hamataka_kotone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B01C8A708900F16DFC /* hamataka_kotone.jpg */; };
+		BABD08F21C8A708900F16DFC /* hukai_yuuta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B11C8A708900F16DFC /* hukai_yuuta.jpg */; };
+		BABD08F31C8A708900F16DFC /* kokushi_seiya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B21C8A708900F16DFC /* kokushi_seiya.jpg */; };
+		BABD08F41C8A708900F16DFC /* kudou_naoki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B31C8A708900F16DFC /* kudou_naoki.jpg */; };
+		BABD08F51C8A708900F16DFC /* nakajima_haruka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B41C8A708900F16DFC /* nakajima_haruka.jpg */; };
+		BABD08F61C8A708900F16DFC /* sakai_shiori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B51C8A708900F16DFC /* sakai_shiori.jpg */; };
+		BABD08F71C8A708900F16DFC /* sasaki_shunsuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B61C8A708900F16DFC /* sasaki_shunsuke.jpg */; };
+		BABD08F81C8A708900F16DFC /* tougane_takeru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B71C8A708900F16DFC /* tougane_takeru.jpg */; };
+		BABD08F91C8A708900F16DFC /* yukawa_jyou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B81C8A708900F16DFC /* yukawa_jyou.jpg */; };
+		BABD08FA1C8A708900F16DFC /* eguchi_misa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08BA1C8A708900F16DFC /* eguchi_misa.jpg */; };
+		BABD08FB1C8A708900F16DFC /* inoue_yoshimi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08BB1C8A708900F16DFC /* inoue_yoshimi.jpg */; };
+		BABD08FC1C8A708900F16DFC /* itou_miho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08BC1C8A708900F16DFC /* itou_miho.jpg */; };
+		BABD08FD1C8A708900F16DFC /* koujyou_takuma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08BD1C8A708900F16DFC /* koujyou_takuma.jpg */; };
+		BABD08FE1C8A708900F16DFC /* murata_kento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08BE1C8A708900F16DFC /* murata_kento.jpg */; };
+		BABD08FF1C8A708900F16DFC /* arai_takahiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C01C8A708900F16DFC /* arai_takahiro.jpg */; };
+		BABD09001C8A708900F16DFC /* harada_akira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C11C8A708900F16DFC /* harada_akira.jpg */; };
+		BABD09011C8A708900F16DFC /* inoue_minami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C21C8A708900F16DFC /* inoue_minami.jpg */; };
+		BABD09021C8A708900F16DFC /* kajihara_yuuma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C31C8A708900F16DFC /* kajihara_yuuma.jpg */; };
+		BABD09031C8A708900F16DFC /* matumoto_kanako.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C41C8A708900F16DFC /* matumoto_kanako.jpg */; };
+		BABD09041C8A708900F16DFC /* nohara_keisuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C51C8A708900F16DFC /* nohara_keisuke.jpg */; };
+		BABD09051C8A708900F16DFC /* yamamoto_kenta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C61C8A708900F16DFC /* yamamoto_kenta.jpg */; };
+		BABD09061C8A708900F16DFC /* ikezoe_takaharu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C81C8A708900F16DFC /* ikezoe_takaharu.jpg */; };
+		BABD09071C8A708900F16DFC /* inoue_ayano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08C91C8A708900F16DFC /* inoue_ayano.jpg */; };
+		BABD09081C8A708900F16DFC /* kuroda_keiko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08CA1C8A708900F16DFC /* kuroda_keiko.jpg */; };
+		BABD09091C8A708900F16DFC /* nishimura_masakazu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08CB1C8A708900F16DFC /* nishimura_masakazu.jpg */; };
+		BABD090A1C8A708900F16DFC /* ogawara_yousuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08CC1C8A708900F16DFC /* ogawara_yousuke.jpg */; };
+		BABD090B1C8A708900F16DFC /* saitou_hiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08CD1C8A708900F16DFC /* saitou_hiro.jpg */; };
+		BABD090C1C8A708900F16DFC /* sano_hiroko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08CE1C8A708900F16DFC /* sano_hiroko.jpg */; };
+		BABD090D1C8A708900F16DFC /* tateishi_marina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08CF1C8A708900F16DFC /* tateishi_marina.jpg */; };
+		BABD090E1C8A708900F16DFC /* tutida_taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D01C8A708900F16DFC /* tutida_taichi.jpg */; };
+		BABD090F1C8A708900F16DFC /* abe_kaoruko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D21C8A708900F16DFC /* abe_kaoruko.jpg */; };
+		BABD09101C8A708900F16DFC /* haruyama_mai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D31C8A708900F16DFC /* haruyama_mai.jpg */; };
+		BABD09111C8A708900F16DFC /* hiwatashi_shouhei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D41C8A708900F16DFC /* hiwatashi_shouhei.jpg */; };
+		BABD09121C8A708900F16DFC /* igaki_shousei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D51C8A708900F16DFC /* igaki_shousei.jpg */; };
+		BABD09131C8A708900F16DFC /* izumi_yuuma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D61C8A708900F16DFC /* izumi_yuuma.jpg */; };
+		BABD09141C8A708900F16DFC /* kaneko_yuuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D71C8A708900F16DFC /* kaneko_yuuto.jpg */; };
+		BABD09151C8A708900F16DFC /* kasuya_erika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D81C8A708900F16DFC /* kasuya_erika.jpg */; };
+		BABD09161C8A708900F16DFC /* kimoto_shinnosuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08D91C8A708900F16DFC /* kimoto_shinnosuke.jpg */; };
+		BABD09171C8A708900F16DFC /* oosima_haruna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08DA1C8A708900F16DFC /* oosima_haruna.jpg */; };
+		BABD09181C8A708900F16DFC /* sugawara_sati.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08DB1C8A708900F16DFC /* sugawara_sati.jpg */; };
+		BABD09191C8A708900F16DFC /* takeuti_jyuniti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08DC1C8A708900F16DFC /* takeuti_jyuniti.jpg */; };
+		BABD091A1C8A708900F16DFC /* tokunaga_mio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08DD1C8A708900F16DFC /* tokunaga_mio.jpg */; };
+		BABD091B1C8A708900F16DFC /* tomita_yuusuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08DE1C8A708900F16DFC /* tomita_yuusuke.jpg */; };
+		BABD091C1C8A708900F16DFC /* tyou_kaei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08DF1C8A708900F16DFC /* tyou_kaei.jpg */; };
+		BABD091D1C8A708900F16DFC /* watanabe_souta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E01C8A708900F16DFC /* watanabe_souta.jpg */; };
+		BABD091E1C8A708900F16DFC /* yamaoka_taigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E11C8A708900F16DFC /* yamaoka_taigo.jpg */; };
+		BABD091F1C8A708900F16DFC /* yoshimura_natuhito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E21C8A708900F16DFC /* yoshimura_natuhito.jpg */; };
+		BABD09201C8A708900F16DFC /* egawa_takayasu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E41C8A708900F16DFC /* egawa_takayasu.jpg */; };
+		BABD09211C8A708900F16DFC /* inuzuka_shintarou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E51C8A708900F16DFC /* inuzuka_shintarou.jpg */; };
+		BABD09221C8A708900F16DFC /* iwai_atuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E61C8A708900F16DFC /* iwai_atuki.jpg */; };
+		BABD09231C8A708900F16DFC /* kanza_shion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E71C8A708900F16DFC /* kanza_shion.jpg */; };
+		BABD09241C8A708900F16DFC /* matubara_manami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E81C8A708900F16DFC /* matubara_manami.jpg */; };
+		BABD09251C8A708900F16DFC /* matumoto_ayane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08E91C8A708900F16DFC /* matumoto_ayane.jpg */; };
+		BABD09261C8A708900F16DFC /* onuma_rui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08EA1C8A708900F16DFC /* onuma_rui.jpg */; };
+		BABD09271C8A708900F16DFC /* sudou_yuuta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08EB1C8A708900F16DFC /* sudou_yuuta.jpg */; };
+		BABD09281C8A708900F16DFC /* takagi_yuzuho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08EC1C8A708900F16DFC /* takagi_yuzuho.jpg */; };
+		BABD09291C8A708900F16DFC /* tutida_yuuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08ED1C8A708900F16DFC /* tutida_yuuki.jpg */; };
+		BABD092A1C8A708900F16DFC /* yokobori_shouiti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08EE1C8A708900F16DFC /* yokobori_shouiti.jpg */; };
+		BABD092B1C8A708900F16DFC /* yuzawa_takuya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08EF1C8A708900F16DFC /* yuzawa_takuya.jpg */; };
+		BABD094A1C8A70A400F16DFC /* adati_yuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD092D1C8A70A400F16DFC /* adati_yuki.jpg */; };
+		BABD094B1C8A70A400F16DFC /* hibino_madoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD092E1C8A70A400F16DFC /* hibino_madoka.jpg */; };
+		BABD094C1C8A70A400F16DFC /* hirata_yuusuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD092F1C8A70A400F16DFC /* hirata_yuusuke.jpg */; };
+		BABD094D1C8A70A400F16DFC /* hoshiba_kiyohiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09301C8A70A400F16DFC /* hoshiba_kiyohiro.jpg */; };
+		BABD094E1C8A70A400F16DFC /* matubara_riku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09311C8A70A400F16DFC /* matubara_riku.jpg */; };
+		BABD094F1C8A70A400F16DFC /* matumoto_kisaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09321C8A70A400F16DFC /* matumoto_kisaki.jpg */; };
+		BABD09501C8A70A400F16DFC /* miura_keisuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09331C8A70A400F16DFC /* miura_keisuke.jpg */; };
+		BABD09511C8A70A400F16DFC /* noguti_tihio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09341C8A70A400F16DFC /* noguti_tihio.jpg */; };
+		BABD09521C8A70A400F16DFC /* shioya_hiroka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09351C8A70A400F16DFC /* shioya_hiroka.jpg */; };
+		BABD09531C8A70A400F16DFC /* shirasaki_miki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09361C8A70A400F16DFC /* shirasaki_miki.jpg */; };
+		BABD09541C8A70A400F16DFC /* yamada_kanako.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09371C8A70A400F16DFC /* yamada_kanako.jpg */; };
+		BABD09551C8A70A400F16DFC /* yoshida_kouta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09381C8A70A400F16DFC /* yoshida_kouta.jpg */; };
+		BABD09561C8A70A400F16DFC /* yoshimura_yuuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09391C8A70A400F16DFC /* yoshimura_yuuki.jpg */; };
+		BABD09571C8A70A400F16DFC /* hamamori_toshiyuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD093B1C8A70A400F16DFC /* hamamori_toshiyuki.jpg */; };
+		BABD09581C8A70A400F16DFC /* kakino_yukiho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD093C1C8A70A400F16DFC /* kakino_yukiho.jpg */; };
+		BABD09591C8A70A400F16DFC /* kawasaki_hayato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD093D1C8A70A400F16DFC /* kawasaki_hayato.jpg */; };
+		BABD095A1C8A70A400F16DFC /* nakamura_kyouhei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD093E1C8A70A400F16DFC /* nakamura_kyouhei.jpg */; };
+		BABD095B1C8A70A400F16DFC /* nishimura_hana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD093F1C8A70A400F16DFC /* nishimura_hana.jpg */; };
+		BABD095C1C8A70A400F16DFC /* sakamoto_kazuumi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09401C8A70A400F16DFC /* sakamoto_kazuumi.jpg */; };
+		BABD095D1C8A70A400F16DFC /* shimizu_yoshihiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09411C8A70A400F16DFC /* shimizu_yoshihiro.jpg */; };
+		BABD095E1C8A70A400F16DFC /* tubouti_akiho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09421C8A70A400F16DFC /* tubouti_akiho.jpg */; };
+		BABD095F1C8A70A400F16DFC /* utunomiya_kousuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09431C8A70A400F16DFC /* utunomiya_kousuke.jpg */; };
+		BABD09601C8A70A400F16DFC /* iwano_megumi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09451C8A70A400F16DFC /* iwano_megumi.jpg */; };
+		BABD09611C8A70A400F16DFC /* kanai_keita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09461C8A70A400F16DFC /* kanai_keita.jpg */; };
+		BABD09621C8A70A400F16DFC /* satou_shoutarou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09471C8A70A400F16DFC /* satou_shoutarou.jpg */; };
+		BABD09631C8A70A400F16DFC /* tunehiro_tomoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09481C8A70A400F16DFC /* tunehiro_tomoka.jpg */; };
+		BABD09641C8A70A400F16DFC /* yamaguti_tae.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09491C8A70A400F16DFC /* yamaguti_tae.jpg */; };
+		BABD09681C8A75DE00F16DFC /* animeviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */; };
+		BABD096A1C8A760100F16DFC /* movieviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */; };
+		BABD096C1C8A761F00F16DFC /* androidviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096B1C8A761F00F16DFC /* androidviewCollectionViewController.swift */; };
+		BABD096E1C8A762F00F16DFC /* DTMviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096D1C8A762F00F16DFC /* DTMviewCollectionViewController.swift */; };
+		BABD09701C8A764E00F16DFC /* mediaartviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096F1C8A764E00F16DFC /* mediaartviewCollectionViewController.swift */; };
+		BABD09721C8A766000F16DFC /* maicuraviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09711C8A766000F16DFC /* maicuraviewCollectionViewController.swift */; };
+		BABD09741C8A767500F16DFC /* nuityviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09731C8A767500F16DFC /* nuityviewCollectionViewController.swift */; };
+		BABD09761C8A768C00F16DFC /* webPviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09751C8A768C00F16DFC /* webPviewCollectionViewController.swift */; };
+		BABD09781C8A76A300F16DFC /* webDviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09771C8A76A300F16DFC /* webDviewCollectionViewController.swift */; };
+		BABD097A1C8A930100F16DFC /* selectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09791C8A930100F16DFC /* selectViewController.swift */; };
+		BABD09B41C8AA81400F16DFC /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BABD098C1C8AA81400F16DFC /* Contents.json */; };
+		BABD09B51C8AA81400F16DFC /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD098D1C8AA81400F16DFC /* Icon-40.png */; };
+		BABD09B61C8AA81400F16DFC /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD098E1C8AA81400F16DFC /* Icon-40@2x.png */; };
+		BABD09B71C8AA81400F16DFC /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD098F1C8AA81400F16DFC /* Icon-40@3x.png */; };
+		BABD09B81C8AA81400F16DFC /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09901C8AA81400F16DFC /* Icon-60@2x.png */; };
+		BABD09B91C8AA81400F16DFC /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09911C8AA81400F16DFC /* Icon-60@3x.png */; };
+		BABD09BA1C8AA81400F16DFC /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09921C8AA81400F16DFC /* Icon-76.png */; };
+		BABD09BB1C8AA81400F16DFC /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09931C8AA81400F16DFC /* Icon-76@2x.png */; };
+		BABD09BC1C8AA81400F16DFC /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09941C8AA81400F16DFC /* Icon-83.5@2x.png */; };
+		BABD09BD1C8AA81400F16DFC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09951C8AA81400F16DFC /* Icon-Small.png */; };
+		BABD09BE1C8AA81400F16DFC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09961C8AA81400F16DFC /* Icon-Small@2x.png */; };
+		BABD09BF1C8AA81400F16DFC /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09971C8AA81400F16DFC /* Icon-Small@3x.png */; };
+		BABD09C01C8AA81400F16DFC /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09981C8AA81400F16DFC /* Icon-60.png */; };
+		BABD09C11C8AA81400F16DFC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09991C8AA81400F16DFC /* Icon-72.png */; };
+		BABD09C21C8AA81400F16DFC /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD099A1C8AA81400F16DFC /* Icon-72@2x.png */; };
+		BABD09C31C8AA81400F16DFC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD099B1C8AA81400F16DFC /* Icon-Small-50.png */; };
+		BABD09C41C8AA81400F16DFC /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD099C1C8AA81400F16DFC /* Icon-Small-50@2x.png */; };
+		BABD09C51C8AA81400F16DFC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD099D1C8AA81400F16DFC /* Icon.png */; };
+		BABD09C61C8AA81400F16DFC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD099E1C8AA81400F16DFC /* Icon@2x.png */; };
+		BABD09C71C8AA81400F16DFC /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD099F1C8AA81400F16DFC /* iTunesArtwork.png */; };
+		BABD09C81C8AA81400F16DFC /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09A01C8AA81400F16DFC /* iTunesArtwork@2x.png */; };
+		BABD09D41C8AADAD00F16DFC /* windows-1149018_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */; };
+		BABD09D61C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */; };
+		BABD09D81C8ABCBE00F16DFC /* selectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09D71C8ABCBE00F16DFC /* selectCollectionViewController.swift */; };
+		BABD09DA1C8ABCE200F16DFC /* VVCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09D91C8ABCE200F16DFC /* VVCollectionViewController.swift */; };
+		BAD4C38C1C86A7CC00540727 /* hanada_nana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */; };
+		BAD4C38D1C86A7CC00540727 /* hujii_yousuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */; };
+		BAD4C38E1C86A7CC00540727 /* hukuda_karuna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */; };
+		BAD4C38F1C86A7CC00540727 /* ishiguro_yuuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3841C86A7CC00540727 /* ishiguro_yuuki.jpg */; };
+		BAD4C3901C86A7CC00540727 /* nakazawa_humito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3851C86A7CC00540727 /* nakazawa_humito.jpg */; };
+		BAD4C3911C86A7CC00540727 /* niki_mirai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3861C86A7CC00540727 /* niki_mirai.jpg */; };
+		BAD4C3921C86A7CC00540727 /* sakata_yuuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3871C86A7CC00540727 /* sakata_yuuki.jpg */; };
+		BAD4C3931C86A7CC00540727 /* sakaue_aoi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3881C86A7CC00540727 /* sakaue_aoi.jpg */; };
+		BAD4C3941C86A7CC00540727 /* sekine_yuri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3891C86A7CC00540727 /* sekine_yuri.jpg */; };
+		BAD4C3951C86A7CC00540727 /* tanaka_yasutaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C38A1C86A7CC00540727 /* tanaka_yasutaka.jpg */; };
+		BAD4C3961C86A7CC00540727 /* tomita_saki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */; };
+		BAD4C3981C874BA100540727 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3971C874BA100540727 /* book.png */; };
+		BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3991C89732000540727 /* 美術館.jpg */; };
+		BAD4C3A41C8992A900540727 /* C789_doornomukou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */; };
+		BAD4C3A71C89A6E000540727 /* kubo_honami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A51C89A6E000540727 /* kubo_honami.jpg */; };
+		BAD4C3A81C89A6E000540727 /* moriizumi_ryousuke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A61C89A6E000540727 /* moriizumi_ryousuke.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA55CAEC1C8435DE00558E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA55CACF1C8435DE00558E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA55CAD61C8435DE00558E8E;
+			remoteInfo = seven;
+		};
+		BA55CAF71C8435DE00558E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA55CACF1C8435DE00558E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA55CAD61C8435DE00558E8E;
+			remoteInfo = seven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA55CAD71C8435DE00558E8E /* seven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55CADA1C8435DE00558E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA55CADC1C8435DE00558E8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA55CADF1C8435DE00558E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA55CAE11C8435DE00558E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA55CAE41C8435DE00558E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA55CAE61C8435DE00558E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55CAEB1C8435DE00558E8E /* sevenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sevenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55CAEF1C8435DE00558E8E /* sevenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenTests.swift; sourceTree = "<group>"; };
+		BA55CAF11C8435DE00558E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55CAF61C8435DE00558E8E /* sevenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sevenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenUITests.swift; sourceTree = "<group>"; };
+		BA55CAFC1C8435DE00558E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD08AF1C8A708900F16DFC /* asada_shion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asada_shion.jpg; sourceTree = "<group>"; };
+		BABD08B01C8A708900F16DFC /* hamataka_kotone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamataka_kotone.jpg; sourceTree = "<group>"; };
+		BABD08B11C8A708900F16DFC /* hukai_yuuta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hukai_yuuta.jpg; sourceTree = "<group>"; };
+		BABD08B21C8A708900F16DFC /* kokushi_seiya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kokushi_seiya.jpg; sourceTree = "<group>"; };
+		BABD08B31C8A708900F16DFC /* kudou_naoki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kudou_naoki.jpg; sourceTree = "<group>"; };
+		BABD08B41C8A708900F16DFC /* nakajima_haruka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nakajima_haruka.jpg; sourceTree = "<group>"; };
+		BABD08B51C8A708900F16DFC /* sakai_shiori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakai_shiori.jpg; sourceTree = "<group>"; };
+		BABD08B61C8A708900F16DFC /* sasaki_shunsuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sasaki_shunsuke.jpg; sourceTree = "<group>"; };
+		BABD08B71C8A708900F16DFC /* tougane_takeru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tougane_takeru.jpg; sourceTree = "<group>"; };
+		BABD08B81C8A708900F16DFC /* yukawa_jyou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukawa_jyou.jpg; sourceTree = "<group>"; };
+		BABD08BA1C8A708900F16DFC /* eguchi_misa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eguchi_misa.jpg; sourceTree = "<group>"; };
+		BABD08BB1C8A708900F16DFC /* inoue_yoshimi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inoue_yoshimi.jpg; sourceTree = "<group>"; };
+		BABD08BC1C8A708900F16DFC /* itou_miho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itou_miho.jpg; sourceTree = "<group>"; };
+		BABD08BD1C8A708900F16DFC /* koujyou_takuma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koujyou_takuma.jpg; sourceTree = "<group>"; };
+		BABD08BE1C8A708900F16DFC /* murata_kento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = murata_kento.jpg; sourceTree = "<group>"; };
+		BABD08C01C8A708900F16DFC /* arai_takahiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arai_takahiro.jpg; sourceTree = "<group>"; };
+		BABD08C11C8A708900F16DFC /* harada_akira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harada_akira.jpg; sourceTree = "<group>"; };
+		BABD08C21C8A708900F16DFC /* inoue_minami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inoue_minami.jpg; sourceTree = "<group>"; };
+		BABD08C31C8A708900F16DFC /* kajihara_yuuma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kajihara_yuuma.jpg; sourceTree = "<group>"; };
+		BABD08C41C8A708900F16DFC /* matumoto_kanako.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matumoto_kanako.jpg; sourceTree = "<group>"; };
+		BABD08C51C8A708900F16DFC /* nohara_keisuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nohara_keisuke.jpg; sourceTree = "<group>"; };
+		BABD08C61C8A708900F16DFC /* yamamoto_kenta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamamoto_kenta.jpg; sourceTree = "<group>"; };
+		BABD08C81C8A708900F16DFC /* ikezoe_takaharu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ikezoe_takaharu.jpg; sourceTree = "<group>"; };
+		BABD08C91C8A708900F16DFC /* inoue_ayano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inoue_ayano.jpg; sourceTree = "<group>"; };
+		BABD08CA1C8A708900F16DFC /* kuroda_keiko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuroda_keiko.jpg; sourceTree = "<group>"; };
+		BABD08CB1C8A708900F16DFC /* nishimura_masakazu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nishimura_masakazu.jpg; sourceTree = "<group>"; };
+		BABD08CC1C8A708900F16DFC /* ogawara_yousuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ogawara_yousuke.jpg; sourceTree = "<group>"; };
+		BABD08CD1C8A708900F16DFC /* saitou_hiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saitou_hiro.jpg; sourceTree = "<group>"; };
+		BABD08CE1C8A708900F16DFC /* sano_hiroko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sano_hiroko.jpg; sourceTree = "<group>"; };
+		BABD08CF1C8A708900F16DFC /* tateishi_marina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tateishi_marina.jpg; sourceTree = "<group>"; };
+		BABD08D01C8A708900F16DFC /* tutida_taichi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutida_taichi.jpg; sourceTree = "<group>"; };
+		BABD08D21C8A708900F16DFC /* abe_kaoruko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abe_kaoruko.jpg; sourceTree = "<group>"; };
+		BABD08D31C8A708900F16DFC /* haruyama_mai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haruyama_mai.jpg; sourceTree = "<group>"; };
+		BABD08D41C8A708900F16DFC /* hiwatashi_shouhei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiwatashi_shouhei.jpg; sourceTree = "<group>"; };
+		BABD08D51C8A708900F16DFC /* igaki_shousei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = igaki_shousei.jpg; sourceTree = "<group>"; };
+		BABD08D61C8A708900F16DFC /* izumi_yuuma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = izumi_yuuma.jpg; sourceTree = "<group>"; };
+		BABD08D71C8A708900F16DFC /* kaneko_yuuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kaneko_yuuto.jpg; sourceTree = "<group>"; };
+		BABD08D81C8A708900F16DFC /* kasuya_erika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kasuya_erika.jpg; sourceTree = "<group>"; };
+		BABD08D91C8A708900F16DFC /* kimoto_shinnosuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimoto_shinnosuke.jpg; sourceTree = "<group>"; };
+		BABD08DA1C8A708900F16DFC /* oosima_haruna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oosima_haruna.jpg; sourceTree = "<group>"; };
+		BABD08DB1C8A708900F16DFC /* sugawara_sati.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sugawara_sati.jpg; sourceTree = "<group>"; };
+		BABD08DC1C8A708900F16DFC /* takeuti_jyuniti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takeuti_jyuniti.jpg; sourceTree = "<group>"; };
+		BABD08DD1C8A708900F16DFC /* tokunaga_mio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokunaga_mio.jpg; sourceTree = "<group>"; };
+		BABD08DE1C8A708900F16DFC /* tomita_yuusuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomita_yuusuke.jpg; sourceTree = "<group>"; };
+		BABD08DF1C8A708900F16DFC /* tyou_kaei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyou_kaei.jpg; sourceTree = "<group>"; };
+		BABD08E01C8A708900F16DFC /* watanabe_souta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watanabe_souta.jpg; sourceTree = "<group>"; };
+		BABD08E11C8A708900F16DFC /* yamaoka_taigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamaoka_taigo.jpg; sourceTree = "<group>"; };
+		BABD08E21C8A708900F16DFC /* yoshimura_natuhito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoshimura_natuhito.jpg; sourceTree = "<group>"; };
+		BABD08E41C8A708900F16DFC /* egawa_takayasu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egawa_takayasu.jpg; sourceTree = "<group>"; };
+		BABD08E51C8A708900F16DFC /* inuzuka_shintarou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inuzuka_shintarou.jpg; sourceTree = "<group>"; };
+		BABD08E61C8A708900F16DFC /* iwai_atuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iwai_atuki.jpg; sourceTree = "<group>"; };
+		BABD08E71C8A708900F16DFC /* kanza_shion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanza_shion.jpg; sourceTree = "<group>"; };
+		BABD08E81C8A708900F16DFC /* matubara_manami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matubara_manami.jpg; sourceTree = "<group>"; };
+		BABD08E91C8A708900F16DFC /* matumoto_ayane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matumoto_ayane.jpg; sourceTree = "<group>"; };
+		BABD08EA1C8A708900F16DFC /* onuma_rui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onuma_rui.jpg; sourceTree = "<group>"; };
+		BABD08EB1C8A708900F16DFC /* sudou_yuuta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudou_yuuta.jpg; sourceTree = "<group>"; };
+		BABD08EC1C8A708900F16DFC /* takagi_yuzuho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takagi_yuzuho.jpg; sourceTree = "<group>"; };
+		BABD08ED1C8A708900F16DFC /* tutida_yuuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutida_yuuki.jpg; sourceTree = "<group>"; };
+		BABD08EE1C8A708900F16DFC /* yokobori_shouiti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yokobori_shouiti.jpg; sourceTree = "<group>"; };
+		BABD08EF1C8A708900F16DFC /* yuzawa_takuya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuzawa_takuya.jpg; sourceTree = "<group>"; };
+		BABD092D1C8A70A400F16DFC /* adati_yuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adati_yuki.jpg; sourceTree = "<group>"; };
+		BABD092E1C8A70A400F16DFC /* hibino_madoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hibino_madoka.jpg; sourceTree = "<group>"; };
+		BABD092F1C8A70A400F16DFC /* hirata_yuusuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hirata_yuusuke.jpg; sourceTree = "<group>"; };
+		BABD09301C8A70A400F16DFC /* hoshiba_kiyohiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hoshiba_kiyohiro.jpg; sourceTree = "<group>"; };
+		BABD09311C8A70A400F16DFC /* matubara_riku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matubara_riku.jpg; sourceTree = "<group>"; };
+		BABD09321C8A70A400F16DFC /* matumoto_kisaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matumoto_kisaki.jpg; sourceTree = "<group>"; };
+		BABD09331C8A70A400F16DFC /* miura_keisuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miura_keisuke.jpg; sourceTree = "<group>"; };
+		BABD09341C8A70A400F16DFC /* noguti_tihio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noguti_tihio.jpg; sourceTree = "<group>"; };
+		BABD09351C8A70A400F16DFC /* shioya_hiroka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shioya_hiroka.jpg; sourceTree = "<group>"; };
+		BABD09361C8A70A400F16DFC /* shirasaki_miki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirasaki_miki.jpg; sourceTree = "<group>"; };
+		BABD09371C8A70A400F16DFC /* yamada_kanako.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamada_kanako.jpg; sourceTree = "<group>"; };
+		BABD09381C8A70A400F16DFC /* yoshida_kouta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoshida_kouta.jpg; sourceTree = "<group>"; };
+		BABD09391C8A70A400F16DFC /* yoshimura_yuuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoshimura_yuuki.jpg; sourceTree = "<group>"; };
+		BABD093B1C8A70A400F16DFC /* hamamori_toshiyuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamamori_toshiyuki.jpg; sourceTree = "<group>"; };
+		BABD093C1C8A70A400F16DFC /* kakino_yukiho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kakino_yukiho.jpg; sourceTree = "<group>"; };
+		BABD093D1C8A70A400F16DFC /* kawasaki_hayato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kawasaki_hayato.jpg; sourceTree = "<group>"; };
+		BABD093E1C8A70A400F16DFC /* nakamura_kyouhei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nakamura_kyouhei.jpg; sourceTree = "<group>"; };
+		BABD093F1C8A70A400F16DFC /* nishimura_hana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nishimura_hana.jpg; sourceTree = "<group>"; };
+		BABD09401C8A70A400F16DFC /* sakamoto_kazuumi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakamoto_kazuumi.jpg; sourceTree = "<group>"; };
+		BABD09411C8A70A400F16DFC /* shimizu_yoshihiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shimizu_yoshihiro.jpg; sourceTree = "<group>"; };
+		BABD09421C8A70A400F16DFC /* tubouti_akiho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tubouti_akiho.jpg; sourceTree = "<group>"; };
+		BABD09431C8A70A400F16DFC /* utunomiya_kousuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = utunomiya_kousuke.jpg; sourceTree = "<group>"; };
+		BABD09451C8A70A400F16DFC /* iwano_megumi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iwano_megumi.jpg; sourceTree = "<group>"; };
+		BABD09461C8A70A400F16DFC /* kanai_keita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanai_keita.jpg; sourceTree = "<group>"; };
+		BABD09471C8A70A400F16DFC /* satou_shoutarou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = satou_shoutarou.jpg; sourceTree = "<group>"; };
+		BABD09481C8A70A400F16DFC /* tunehiro_tomoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tunehiro_tomoka.jpg; sourceTree = "<group>"; };
+		BABD09491C8A70A400F16DFC /* yamaguti_tae.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamaguti_tae.jpg; sourceTree = "<group>"; };
+		BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animeviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD096B1C8A761F00F16DFC /* androidviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = androidviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD096D1C8A762F00F16DFC /* DTMviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTMviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD096F1C8A764E00F16DFC /* mediaartviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mediaartviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09711C8A766000F16DFC /* maicuraviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maicuraviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09731C8A767500F16DFC /* nuityviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nuityviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09751C8A768C00F16DFC /* webPviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webPviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09771C8A76A300F16DFC /* webDviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webDviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09791C8A930100F16DFC /* selectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectViewController.swift; sourceTree = "<group>"; };
+		BABD098C1C8AA81400F16DFC /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BABD098D1C8AA81400F16DFC /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		BABD098E1C8AA81400F16DFC /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		BABD098F1C8AA81400F16DFC /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		BABD09901C8AA81400F16DFC /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		BABD09911C8AA81400F16DFC /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		BABD09921C8AA81400F16DFC /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		BABD09931C8AA81400F16DFC /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		BABD09941C8AA81400F16DFC /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		BABD09951C8AA81400F16DFC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		BABD09961C8AA81400F16DFC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		BABD09971C8AA81400F16DFC /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		BABD09981C8AA81400F16DFC /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		BABD09991C8AA81400F16DFC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		BABD099A1C8AA81400F16DFC /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		BABD099B1C8AA81400F16DFC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		BABD099C1C8AA81400F16DFC /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		BABD099D1C8AA81400F16DFC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BABD099E1C8AA81400F16DFC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BABD099F1C8AA81400F16DFC /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		BABD09A01C8AA81400F16DFC /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "windows-1149018_1280.jpg"; sourceTree = "<group>"; };
+		BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 15.03.22.png"; sourceTree = "<group>"; };
+		BABD09D71C8ABCBE00F16DFC /* selectCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09D91C8ABCE200F16DFC /* VVCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVCollectionViewController.swift; sourceTree = "<group>"; };
+		BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hanada_nana.jpg; sourceTree = "<group>"; };
+		BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hujii_yousuke.jpg; sourceTree = "<group>"; };
+		BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hukuda_karuna.jpg; sourceTree = "<group>"; };
+		BAD4C3841C86A7CC00540727 /* ishiguro_yuuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ishiguro_yuuki.jpg; sourceTree = "<group>"; };
+		BAD4C3851C86A7CC00540727 /* nakazawa_humito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nakazawa_humito.jpg; sourceTree = "<group>"; };
+		BAD4C3861C86A7CC00540727 /* niki_mirai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = niki_mirai.jpg; sourceTree = "<group>"; };
+		BAD4C3871C86A7CC00540727 /* sakata_yuuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakata_yuuki.jpg; sourceTree = "<group>"; };
+		BAD4C3881C86A7CC00540727 /* sakaue_aoi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakaue_aoi.jpg; sourceTree = "<group>"; };
+		BAD4C3891C86A7CC00540727 /* sekine_yuri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sekine_yuri.jpg; sourceTree = "<group>"; };
+		BAD4C38A1C86A7CC00540727 /* tanaka_yasutaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanaka_yasutaka.jpg; sourceTree = "<group>"; };
+		BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomita_saki.jpg; sourceTree = "<group>"; };
+		BAD4C3971C874BA100540727 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		BAD4C3991C89732000540727 /* 美術館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美術館.jpg"; sourceTree = "<group>"; };
+		BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C789_doornomukou.jpg; sourceTree = "<group>"; };
+		BAD4C3A51C89A6E000540727 /* kubo_honami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kubo_honami.jpg; sourceTree = "<group>"; };
+		BAD4C3A61C89A6E000540727 /* moriizumi_ryousuke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moriizumi_ryousuke.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA55CAD41C8435DE00558E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55CAE81C8435DE00558E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55CAF31C8435DE00558E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA55CACE1C8435DE00558E8E = {
+			isa = PBXGroup;
+			children = (
+				BABD097B1C8AA81400F16DFC /* %E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202016-03-05%2014 */,
+				BABD09441C8A70A400F16DFC /* アニメ */,
+				BABD093A1C8A70A400F16DFC /* 映像編集 */,
+				BABD08AE1C8A708900F16DFC /* Android */,
+				BABD08B91C8A708900F16DFC /* DTM */,
+				BABD08BF1C8A708900F16DFC /* mediaart */,
+				BABD08C71C8A708900F16DFC /* maicura */,
+				BABD08D11C8A708900F16DFC /* unity */,
+				BABD08E31C8A708900F16DFC /* webP */,
+				BABD092C1C8A70A400F16DFC /* webD */,
+				BAD4C3801C86A7CC00540727 /* iphone */,
+				BA55CAD91C8435DE00558E8E /* seven */,
+				BA55CAEE1C8435DE00558E8E /* sevenTests */,
+				BA55CAF91C8435DE00558E8E /* sevenUITests */,
+				BA55CAD81C8435DE00558E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA55CAD81C8435DE00558E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA55CAD71C8435DE00558E8E /* seven.app */,
+				BA55CAEB1C8435DE00558E8E /* sevenTests.xctest */,
+				BA55CAF61C8435DE00558E8E /* sevenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA55CAD91C8435DE00558E8E /* seven */ = {
+			isa = PBXGroup;
+			children = (
+				BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */,
+				BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */,
+				BAD4C3971C874BA100540727 /* book.png */,
+				BAD4C3991C89732000540727 /* 美術館.jpg */,
+				BA55CADE1C8435DE00558E8E /* Main.storyboard */,
+				BA55CADA1C8435DE00558E8E /* AppDelegate.swift */,
+				BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */,
+				BA55CAE11C8435DE00558E8E /* Assets.xcassets */,
+				BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */,
+				BABD09D71C8ABCBE00F16DFC /* selectCollectionViewController.swift */,
+				BABD09791C8A930100F16DFC /* selectViewController.swift */,
+				BABD09D91C8ABCE200F16DFC /* VVCollectionViewController.swift */,
+				BA55CADC1C8435DE00558E8E /* ViewController.swift */,
+				BA55CAE61C8435DE00558E8E /* Info.plist */,
+				BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */,
+				BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */,
+				BABD096B1C8A761F00F16DFC /* androidviewCollectionViewController.swift */,
+				BABD096D1C8A762F00F16DFC /* DTMviewCollectionViewController.swift */,
+				BABD096F1C8A764E00F16DFC /* mediaartviewCollectionViewController.swift */,
+				BABD09711C8A766000F16DFC /* maicuraviewCollectionViewController.swift */,
+				BABD09731C8A767500F16DFC /* nuityviewCollectionViewController.swift */,
+				BABD09751C8A768C00F16DFC /* webPviewCollectionViewController.swift */,
+				BABD09771C8A76A300F16DFC /* webDviewCollectionViewController.swift */,
+				BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */,
+			);
+			path = seven;
+			sourceTree = "<group>";
+		};
+		BA55CAEE1C8435DE00558E8E /* sevenTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA55CAEF1C8435DE00558E8E /* sevenTests.swift */,
+				BA55CAF11C8435DE00558E8E /* Info.plist */,
+			);
+			path = sevenTests;
+			sourceTree = "<group>";
+		};
+		BA55CAF91C8435DE00558E8E /* sevenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */,
+				BA55CAFC1C8435DE00558E8E /* Info.plist */,
+			);
+			path = sevenUITests;
+			sourceTree = "<group>";
+		};
+		BABD08AE1C8A708900F16DFC /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				BABD08AF1C8A708900F16DFC /* asada_shion.jpg */,
+				BABD08B01C8A708900F16DFC /* hamataka_kotone.jpg */,
+				BABD08B11C8A708900F16DFC /* hukai_yuuta.jpg */,
+				BABD08B21C8A708900F16DFC /* kokushi_seiya.jpg */,
+				BABD08B31C8A708900F16DFC /* kudou_naoki.jpg */,
+				BABD08B41C8A708900F16DFC /* nakajima_haruka.jpg */,
+				BABD08B51C8A708900F16DFC /* sakai_shiori.jpg */,
+				BABD08B61C8A708900F16DFC /* sasaki_shunsuke.jpg */,
+				BABD08B71C8A708900F16DFC /* tougane_takeru.jpg */,
+				BABD08B81C8A708900F16DFC /* yukawa_jyou.jpg */,
+			);
+			path = Android;
+			sourceTree = "<group>";
+		};
+		BABD08B91C8A708900F16DFC /* DTM */ = {
+			isa = PBXGroup;
+			children = (
+				BABD08BA1C8A708900F16DFC /* eguchi_misa.jpg */,
+				BABD08BB1C8A708900F16DFC /* inoue_yoshimi.jpg */,
+				BABD08BC1C8A708900F16DFC /* itou_miho.jpg */,
+				BABD08BD1C8A708900F16DFC /* koujyou_takuma.jpg */,
+				BABD08BE1C8A708900F16DFC /* murata_kento.jpg */,
+			);
+			path = DTM;
+			sourceTree = "<group>";
+		};
+		BABD08BF1C8A708900F16DFC /* mediaart */ = {
+			isa = PBXGroup;
+			children = (
+				BABD08C01C8A708900F16DFC /* arai_takahiro.jpg */,
+				BABD08C11C8A708900F16DFC /* harada_akira.jpg */,
+				BABD08C21C8A708900F16DFC /* inoue_minami.jpg */,
+				BABD08C31C8A708900F16DFC /* kajihara_yuuma.jpg */,
+				BABD08C41C8A708900F16DFC /* matumoto_kanako.jpg */,
+				BABD08C51C8A708900F16DFC /* nohara_keisuke.jpg */,
+				BABD08C61C8A708900F16DFC /* yamamoto_kenta.jpg */,
+			);
+			path = mediaart;
+			sourceTree = "<group>";
+		};
+		BABD08C71C8A708900F16DFC /* maicura */ = {
+			isa = PBXGroup;
+			children = (
+				BABD08C81C8A708900F16DFC /* ikezoe_takaharu.jpg */,
+				BABD08C91C8A708900F16DFC /* inoue_ayano.jpg */,
+				BABD08CA1C8A708900F16DFC /* kuroda_keiko.jpg */,
+				BABD08CB1C8A708900F16DFC /* nishimura_masakazu.jpg */,
+				BABD08CC1C8A708900F16DFC /* ogawara_yousuke.jpg */,
+				BABD08CD1C8A708900F16DFC /* saitou_hiro.jpg */,
+				BABD08CE1C8A708900F16DFC /* sano_hiroko.jpg */,
+				BABD08CF1C8A708900F16DFC /* tateishi_marina.jpg */,
+				BABD08D01C8A708900F16DFC /* tutida_taichi.jpg */,
+			);
+			path = maicura;
+			sourceTree = "<group>";
+		};
+		BABD08D11C8A708900F16DFC /* unity */ = {
+			isa = PBXGroup;
+			children = (
+				BABD08D21C8A708900F16DFC /* abe_kaoruko.jpg */,
+				BABD08D31C8A708900F16DFC /* haruyama_mai.jpg */,
+				BABD08D41C8A708900F16DFC /* hiwatashi_shouhei.jpg */,
+				BABD08D51C8A708900F16DFC /* igaki_shousei.jpg */,
+				BABD08D61C8A708900F16DFC /* izumi_yuuma.jpg */,
+				BABD08D71C8A708900F16DFC /* kaneko_yuuto.jpg */,
+				BABD08D81C8A708900F16DFC /* kasuya_erika.jpg */,
+				BABD08D91C8A708900F16DFC /* kimoto_shinnosuke.jpg */,
+				BABD08DA1C8A708900F16DFC /* oosima_haruna.jpg */,
+				BABD08DB1C8A708900F16DFC /* sugawara_sati.jpg */,
+				BABD08DC1C8A708900F16DFC /* takeuti_jyuniti.jpg */,
+				BABD08DD1C8A708900F16DFC /* tokunaga_mio.jpg */,
+				BABD08DE1C8A708900F16DFC /* tomita_yuusuke.jpg */,
+				BABD08DF1C8A708900F16DFC /* tyou_kaei.jpg */,
+				BABD08E01C8A708900F16DFC /* watanabe_souta.jpg */,
+				BABD08E11C8A708900F16DFC /* yamaoka_taigo.jpg */,
+				BABD08E21C8A708900F16DFC /* yoshimura_natuhito.jpg */,
+			);
+			path = unity;
+			sourceTree = "<group>";
+		};
+		BABD08E31C8A708900F16DFC /* webP */ = {
+			isa = PBXGroup;
+			children = (
+				BABD08E41C8A708900F16DFC /* egawa_takayasu.jpg */,
+				BABD08E51C8A708900F16DFC /* inuzuka_shintarou.jpg */,
+				BABD08E61C8A708900F16DFC /* iwai_atuki.jpg */,
+				BABD08E71C8A708900F16DFC /* kanza_shion.jpg */,
+				BABD08E81C8A708900F16DFC /* matubara_manami.jpg */,
+				BABD08E91C8A708900F16DFC /* matumoto_ayane.jpg */,
+				BABD08EA1C8A708900F16DFC /* onuma_rui.jpg */,
+				BABD08EB1C8A708900F16DFC /* sudou_yuuta.jpg */,
+				BABD08EC1C8A708900F16DFC /* takagi_yuzuho.jpg */,
+				BABD08ED1C8A708900F16DFC /* tutida_yuuki.jpg */,
+				BABD08EE1C8A708900F16DFC /* yokobori_shouiti.jpg */,
+				BABD08EF1C8A708900F16DFC /* yuzawa_takuya.jpg */,
+			);
+			path = webP;
+			sourceTree = "<group>";
+		};
+		BABD092C1C8A70A400F16DFC /* webD */ = {
+			isa = PBXGroup;
+			children = (
+				BABD092D1C8A70A400F16DFC /* adati_yuki.jpg */,
+				BABD092E1C8A70A400F16DFC /* hibino_madoka.jpg */,
+				BABD092F1C8A70A400F16DFC /* hirata_yuusuke.jpg */,
+				BABD09301C8A70A400F16DFC /* hoshiba_kiyohiro.jpg */,
+				BABD09311C8A70A400F16DFC /* matubara_riku.jpg */,
+				BABD09321C8A70A400F16DFC /* matumoto_kisaki.jpg */,
+				BABD09331C8A70A400F16DFC /* miura_keisuke.jpg */,
+				BABD09341C8A70A400F16DFC /* noguti_tihio.jpg */,
+				BABD09351C8A70A400F16DFC /* shioya_hiroka.jpg */,
+				BABD09361C8A70A400F16DFC /* shirasaki_miki.jpg */,
+				BABD09371C8A70A400F16DFC /* yamada_kanako.jpg */,
+				BABD09381C8A70A400F16DFC /* yoshida_kouta.jpg */,
+				BABD09391C8A70A400F16DFC /* yoshimura_yuuki.jpg */,
+			);
+			name = webD;
+			path = seven/iphone/webD;
+			sourceTree = "<group>";
+		};
+		BABD093A1C8A70A400F16DFC /* 映像編集 */ = {
+			isa = PBXGroup;
+			children = (
+				BABD093B1C8A70A400F16DFC /* hamamori_toshiyuki.jpg */,
+				BABD093C1C8A70A400F16DFC /* kakino_yukiho.jpg */,
+				BABD093D1C8A70A400F16DFC /* kawasaki_hayato.jpg */,
+				BABD093E1C8A70A400F16DFC /* nakamura_kyouhei.jpg */,
+				BABD093F1C8A70A400F16DFC /* nishimura_hana.jpg */,
+				BABD09401C8A70A400F16DFC /* sakamoto_kazuumi.jpg */,
+				BABD09411C8A70A400F16DFC /* shimizu_yoshihiro.jpg */,
+				BABD09421C8A70A400F16DFC /* tubouti_akiho.jpg */,
+				BABD09431C8A70A400F16DFC /* utunomiya_kousuke.jpg */,
+			);
+			name = "映像編集";
+			path = "seven/iphone/映像編集";
+			sourceTree = "<group>";
+		};
+		BABD09441C8A70A400F16DFC /* アニメ */ = {
+			isa = PBXGroup;
+			children = (
+				BABD09451C8A70A400F16DFC /* iwano_megumi.jpg */,
+				BABD09461C8A70A400F16DFC /* kanai_keita.jpg */,
+				BABD09471C8A70A400F16DFC /* satou_shoutarou.jpg */,
+				BABD09481C8A70A400F16DFC /* tunehiro_tomoka.jpg */,
+				BABD09491C8A70A400F16DFC /* yamaguti_tae.jpg */,
+			);
+			name = "アニメ";
+			path = "seven/iphone/アニメ";
+			sourceTree = "<group>";
+		};
+		BABD097B1C8AA81400F16DFC /* %E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202016-03-05%2014 */ = {
+			isa = PBXGroup;
+			children = (
+				BABD098A1C8AA81400F16DFC /* ios */,
+			);
+			path = "%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202016-03-05%2014";
+			sourceTree = "<group>";
+		};
+		BABD098A1C8AA81400F16DFC /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				BABD098B1C8AA81400F16DFC /* AppIcon.appiconset */,
+				BABD09981C8AA81400F16DFC /* Icon-60.png */,
+				BABD09991C8AA81400F16DFC /* Icon-72.png */,
+				BABD099A1C8AA81400F16DFC /* Icon-72@2x.png */,
+				BABD099B1C8AA81400F16DFC /* Icon-Small-50.png */,
+				BABD099C1C8AA81400F16DFC /* Icon-Small-50@2x.png */,
+				BABD099D1C8AA81400F16DFC /* Icon.png */,
+				BABD099E1C8AA81400F16DFC /* Icon@2x.png */,
+				BABD099F1C8AA81400F16DFC /* iTunesArtwork.png */,
+				BABD09A01C8AA81400F16DFC /* iTunesArtwork@2x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		BABD098B1C8AA81400F16DFC /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				BABD098C1C8AA81400F16DFC /* Contents.json */,
+				BABD098D1C8AA81400F16DFC /* Icon-40.png */,
+				BABD098E1C8AA81400F16DFC /* Icon-40@2x.png */,
+				BABD098F1C8AA81400F16DFC /* Icon-40@3x.png */,
+				BABD09901C8AA81400F16DFC /* Icon-60@2x.png */,
+				BABD09911C8AA81400F16DFC /* Icon-60@3x.png */,
+				BABD09921C8AA81400F16DFC /* Icon-76.png */,
+				BABD09931C8AA81400F16DFC /* Icon-76@2x.png */,
+				BABD09941C8AA81400F16DFC /* Icon-83.5@2x.png */,
+				BABD09951C8AA81400F16DFC /* Icon-Small.png */,
+				BABD09961C8AA81400F16DFC /* Icon-Small@2x.png */,
+				BABD09971C8AA81400F16DFC /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		BAD4C3801C86A7CC00540727 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */,
+				BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */,
+				BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */,
+				BAD4C3841C86A7CC00540727 /* ishiguro_yuuki.jpg */,
+				BAD4C3851C86A7CC00540727 /* nakazawa_humito.jpg */,
+				BAD4C3861C86A7CC00540727 /* niki_mirai.jpg */,
+				BAD4C3871C86A7CC00540727 /* sakata_yuuki.jpg */,
+				BAD4C3881C86A7CC00540727 /* sakaue_aoi.jpg */,
+				BAD4C3891C86A7CC00540727 /* sekine_yuri.jpg */,
+				BAD4C3A51C89A6E000540727 /* kubo_honami.jpg */,
+				BAD4C3A61C89A6E000540727 /* moriizumi_ryousuke.jpg */,
+				BAD4C38A1C86A7CC00540727 /* tanaka_yasutaka.jpg */,
+				BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */,
+			);
+			name = iphone;
+			path = seven/iphone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA55CAD61C8435DE00558E8E /* seven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA55CAFF1C8435DE00558E8E /* Build configuration list for PBXNativeTarget "seven" */;
+			buildPhases = (
+				BA55CAD31C8435DE00558E8E /* Sources */,
+				BA55CAD41C8435DE00558E8E /* Frameworks */,
+				BA55CAD51C8435DE00558E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seven;
+			productName = seven;
+			productReference = BA55CAD71C8435DE00558E8E /* seven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA55CAEA1C8435DE00558E8E /* sevenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA55CB021C8435DE00558E8E /* Build configuration list for PBXNativeTarget "sevenTests" */;
+			buildPhases = (
+				BA55CAE71C8435DE00558E8E /* Sources */,
+				BA55CAE81C8435DE00558E8E /* Frameworks */,
+				BA55CAE91C8435DE00558E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA55CAED1C8435DE00558E8E /* PBXTargetDependency */,
+			);
+			name = sevenTests;
+			productName = sevenTests;
+			productReference = BA55CAEB1C8435DE00558E8E /* sevenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA55CAF51C8435DE00558E8E /* sevenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA55CB051C8435DE00558E8E /* Build configuration list for PBXNativeTarget "sevenUITests" */;
+			buildPhases = (
+				BA55CAF21C8435DE00558E8E /* Sources */,
+				BA55CAF31C8435DE00558E8E /* Frameworks */,
+				BA55CAF41C8435DE00558E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA55CAF81C8435DE00558E8E /* PBXTargetDependency */,
+			);
+			name = sevenUITests;
+			productName = sevenUITests;
+			productReference = BA55CAF61C8435DE00558E8E /* sevenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA55CACF1C8435DE00558E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "hmlab book pro";
+				TargetAttributes = {
+					BA55CAD61C8435DE00558E8E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PFB74RZH59;
+					};
+					BA55CAEA1C8435DE00558E8E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PFB74RZH59;
+						TestTargetID = BA55CAD61C8435DE00558E8E;
+					};
+					BA55CAF51C8435DE00558E8E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PFB74RZH59;
+						TestTargetID = BA55CAD61C8435DE00558E8E;
+					};
+				};
+			};
+			buildConfigurationList = BA55CAD21C8435DE00558E8E /* Build configuration list for PBXProject "seven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA55CACE1C8435DE00558E8E;
+			productRefGroup = BA55CAD81C8435DE00558E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA55CAD61C8435DE00558E8E /* seven */,
+				BA55CAEA1C8435DE00558E8E /* sevenTests */,
+				BA55CAF51C8435DE00558E8E /* sevenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA55CAD51C8435DE00558E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABD09211C8A708900F16DFC /* inuzuka_shintarou.jpg in Resources */,
+				BABD091E1C8A708900F16DFC /* yamaoka_taigo.jpg in Resources */,
+				BABD09631C8A70A400F16DFC /* tunehiro_tomoka.jpg in Resources */,
+				BABD09021C8A708900F16DFC /* kajihara_yuuma.jpg in Resources */,
+				BAD4C38C1C86A7CC00540727 /* hanada_nana.jpg in Resources */,
+				BAD4C3931C86A7CC00540727 /* sakaue_aoi.jpg in Resources */,
+				BABD095C1C8A70A400F16DFC /* sakamoto_kazuumi.jpg in Resources */,
+				BABD09091C8A708900F16DFC /* nishimura_masakazu.jpg in Resources */,
+				BAD4C3A41C8992A900540727 /* C789_doornomukou.jpg in Resources */,
+				BABD094F1C8A70A400F16DFC /* matumoto_kisaki.jpg in Resources */,
+				BABD09C21C8AA81400F16DFC /* Icon-72@2x.png in Resources */,
+				BABD09111C8A708900F16DFC /* hiwatashi_shouhei.jpg in Resources */,
+				BABD091C1C8A708900F16DFC /* tyou_kaei.jpg in Resources */,
+				BABD092B1C8A708900F16DFC /* yuzawa_takuya.jpg in Resources */,
+				BABD09541C8A70A400F16DFC /* yamada_kanako.jpg in Resources */,
+				BABD09011C8A708900F16DFC /* inoue_minami.jpg in Resources */,
+				BABD09BB1C8AA81400F16DFC /* Icon-76@2x.png in Resources */,
+				BABD09D61C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png in Resources */,
+				BABD09561C8A70A400F16DFC /* yoshimura_yuuki.jpg in Resources */,
+				BABD09BA1C8AA81400F16DFC /* Icon-76.png in Resources */,
+				BABD090B1C8A708900F16DFC /* saitou_hiro.jpg in Resources */,
+				BABD09BD1C8AA81400F16DFC /* Icon-Small.png in Resources */,
+				BABD09C51C8AA81400F16DFC /* Icon.png in Resources */,
+				BABD09C41C8AA81400F16DFC /* Icon-Small-50@2x.png in Resources */,
+				BAD4C3951C86A7CC00540727 /* tanaka_yasutaka.jpg in Resources */,
+				BABD095A1C8A70A400F16DFC /* nakamura_kyouhei.jpg in Resources */,
+				BABD08FD1C8A708900F16DFC /* koujyou_takuma.jpg in Resources */,
+				BABD094C1C8A70A400F16DFC /* hirata_yuusuke.jpg in Resources */,
+				BABD09081C8A708900F16DFC /* kuroda_keiko.jpg in Resources */,
+				BABD090C1C8A708900F16DFC /* sano_hiroko.jpg in Resources */,
+				BABD08F11C8A708900F16DFC /* hamataka_kotone.jpg in Resources */,
+				BABD08F91C8A708900F16DFC /* yukawa_jyou.jpg in Resources */,
+				BABD090D1C8A708900F16DFC /* tateishi_marina.jpg in Resources */,
+				BABD09551C8A70A400F16DFC /* yoshida_kouta.jpg in Resources */,
+				BABD091F1C8A708900F16DFC /* yoshimura_natuhito.jpg in Resources */,
+				BABD090E1C8A708900F16DFC /* tutida_taichi.jpg in Resources */,
+				BABD09B91C8AA81400F16DFC /* Icon-60@3x.png in Resources */,
+				BABD09641C8A70A400F16DFC /* yamaguti_tae.jpg in Resources */,
+				BAD4C38E1C86A7CC00540727 /* hukuda_karuna.jpg in Resources */,
+				BABD09B51C8AA81400F16DFC /* Icon-40.png in Resources */,
+				BABD09291C8A708900F16DFC /* tutida_yuuki.jpg in Resources */,
+				BABD09131C8A708900F16DFC /* izumi_yuuma.jpg in Resources */,
+				BABD09191C8A708900F16DFC /* takeuti_jyuniti.jpg in Resources */,
+				BABD091A1C8A708900F16DFC /* tokunaga_mio.jpg in Resources */,
+				BABD09281C8A708900F16DFC /* takagi_yuzuho.jpg in Resources */,
+				BAD4C38D1C86A7CC00540727 /* hujii_yousuke.jpg in Resources */,
+				BABD09C61C8AA81400F16DFC /* Icon@2x.png in Resources */,
+				BABD09581C8A70A400F16DFC /* kakino_yukiho.jpg in Resources */,
+				BABD08FE1C8A708900F16DFC /* murata_kento.jpg in Resources */,
+				BABD09571C8A70A400F16DFC /* hamamori_toshiyuki.jpg in Resources */,
+				BABD09511C8A70A400F16DFC /* noguti_tihio.jpg in Resources */,
+				BABD08F41C8A708900F16DFC /* kudou_naoki.jpg in Resources */,
+				BABD09161C8A708900F16DFC /* kimoto_shinnosuke.jpg in Resources */,
+				BABD09BF1C8AA81400F16DFC /* Icon-Small@3x.png in Resources */,
+				BABD09001C8A708900F16DFC /* harada_akira.jpg in Resources */,
+				BABD09181C8A708900F16DFC /* sugawara_sati.jpg in Resources */,
+				BABD094A1C8A70A400F16DFC /* adati_yuki.jpg in Resources */,
+				BABD09051C8A708900F16DFC /* yamamoto_kenta.jpg in Resources */,
+				BABD09031C8A708900F16DFC /* matumoto_kanako.jpg in Resources */,
+				BABD08FC1C8A708900F16DFC /* itou_miho.jpg in Resources */,
+				BABD095E1C8A70A400F16DFC /* tubouti_akiho.jpg in Resources */,
+				BAD4C3961C86A7CC00540727 /* tomita_saki.jpg in Resources */,
+				BABD09C71C8AA81400F16DFC /* iTunesArtwork.png in Resources */,
+				BABD09B61C8AA81400F16DFC /* Icon-40@2x.png in Resources */,
+				BABD09151C8A708900F16DFC /* kasuya_erika.jpg in Resources */,
+				BA55CAE51C8435DE00558E8E /* LaunchScreen.storyboard in Resources */,
+				BABD08F21C8A708900F16DFC /* hukai_yuuta.jpg in Resources */,
+				BABD09BE1C8AA81400F16DFC /* Icon-Small@2x.png in Resources */,
+				BABD08F81C8A708900F16DFC /* tougane_takeru.jpg in Resources */,
+				BABD09C01C8AA81400F16DFC /* Icon-60.png in Resources */,
+				BABD094E1C8A70A400F16DFC /* matubara_riku.jpg in Resources */,
+				BABD09171C8A708900F16DFC /* oosima_haruna.jpg in Resources */,
+				BABD09531C8A70A400F16DFC /* shirasaki_miki.jpg in Resources */,
+				BABD08F61C8A708900F16DFC /* sakai_shiori.jpg in Resources */,
+				BABD08F31C8A708900F16DFC /* kokushi_seiya.jpg in Resources */,
+				BABD09611C8A70A400F16DFC /* kanai_keita.jpg in Resources */,
+				BAD4C3921C86A7CC00540727 /* sakata_yuuki.jpg in Resources */,
+				BABD09521C8A70A400F16DFC /* shioya_hiroka.jpg in Resources */,
+				BABD09C31C8AA81400F16DFC /* Icon-Small-50.png in Resources */,
+				BA55CAE21C8435DE00558E8E /* Assets.xcassets in Resources */,
+				BAD4C3901C86A7CC00540727 /* nakazawa_humito.jpg in Resources */,
+				BAD4C3981C874BA100540727 /* book.png in Resources */,
+				BABD09D41C8AADAD00F16DFC /* windows-1149018_1280.jpg in Resources */,
+				BABD092A1C8A708900F16DFC /* yokobori_shouiti.jpg in Resources */,
+				BABD08F51C8A708900F16DFC /* nakajima_haruka.jpg in Resources */,
+				BABD09251C8A708900F16DFC /* matumoto_ayane.jpg in Resources */,
+				BABD08F01C8A708900F16DFC /* asada_shion.jpg in Resources */,
+				BAD4C3A81C89A6E000540727 /* moriizumi_ryousuke.jpg in Resources */,
+				BA55CAE01C8435DE00558E8E /* Main.storyboard in Resources */,
+				BABD09501C8A70A400F16DFC /* miura_keisuke.jpg in Resources */,
+				BABD09201C8A708900F16DFC /* egawa_takayasu.jpg in Resources */,
+				BABD09271C8A708900F16DFC /* sudou_yuuta.jpg in Resources */,
+				BAD4C3941C86A7CC00540727 /* sekine_yuri.jpg in Resources */,
+				BABD09BC1C8AA81400F16DFC /* Icon-83.5@2x.png in Resources */,
+				BAD4C3911C86A7CC00540727 /* niki_mirai.jpg in Resources */,
+				BABD08F71C8A708900F16DFC /* sasaki_shunsuke.jpg in Resources */,
+				BABD091D1C8A708900F16DFC /* watanabe_souta.jpg in Resources */,
+				BABD094B1C8A70A400F16DFC /* hibino_madoka.jpg in Resources */,
+				BABD08FA1C8A708900F16DFC /* eguchi_misa.jpg in Resources */,
+				BABD095F1C8A70A400F16DFC /* utunomiya_kousuke.jpg in Resources */,
+				BABD09121C8A708900F16DFC /* igaki_shousei.jpg in Resources */,
+				BABD09101C8A708900F16DFC /* haruyama_mai.jpg in Resources */,
+				BABD09141C8A708900F16DFC /* kaneko_yuuto.jpg in Resources */,
+				BABD09041C8A708900F16DFC /* nohara_keisuke.jpg in Resources */,
+				BABD09B71C8AA81400F16DFC /* Icon-40@3x.png in Resources */,
+				BABD09B81C8AA81400F16DFC /* Icon-60@2x.png in Resources */,
+				BABD09591C8A70A400F16DFC /* kawasaki_hayato.jpg in Resources */,
+				BAD4C38F1C86A7CC00540727 /* ishiguro_yuuki.jpg in Resources */,
+				BABD090F1C8A708900F16DFC /* abe_kaoruko.jpg in Resources */,
+				BABD09621C8A70A400F16DFC /* satou_shoutarou.jpg in Resources */,
+				BABD08FF1C8A708900F16DFC /* arai_takahiro.jpg in Resources */,
+				BABD09261C8A708900F16DFC /* onuma_rui.jpg in Resources */,
+				BABD09601C8A70A400F16DFC /* iwano_megumi.jpg in Resources */,
+				BABD095B1C8A70A400F16DFC /* nishimura_hana.jpg in Resources */,
+				BABD09221C8A708900F16DFC /* iwai_atuki.jpg in Resources */,
+				BABD090A1C8A708900F16DFC /* ogawara_yousuke.jpg in Resources */,
+				BABD08FB1C8A708900F16DFC /* inoue_yoshimi.jpg in Resources */,
+				BABD09241C8A708900F16DFC /* matubara_manami.jpg in Resources */,
+				BABD09061C8A708900F16DFC /* ikezoe_takaharu.jpg in Resources */,
+				BABD09C11C8AA81400F16DFC /* Icon-72.png in Resources */,
+				BABD09231C8A708900F16DFC /* kanza_shion.jpg in Resources */,
+				BABD095D1C8A70A400F16DFC /* shimizu_yoshihiro.jpg in Resources */,
+				BAD4C3A71C89A6E000540727 /* kubo_honami.jpg in Resources */,
+				BABD091B1C8A708900F16DFC /* tomita_yuusuke.jpg in Resources */,
+				BABD094D1C8A70A400F16DFC /* hoshiba_kiyohiro.jpg in Resources */,
+				BABD09071C8A708900F16DFC /* inoue_ayano.jpg in Resources */,
+				BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */,
+				BABD09B41C8AA81400F16DFC /* Contents.json in Resources */,
+				BABD09C81C8AA81400F16DFC /* iTunesArtwork@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55CAE91C8435DE00558E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55CAF41C8435DE00558E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA55CAD31C8435DE00558E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABD09681C8A75DE00F16DFC /* animeviewCollectionViewController.swift in Sources */,
+				BA55CADD1C8435DE00558E8E /* ViewController.swift in Sources */,
+				BABD09DA1C8ABCE200F16DFC /* VVCollectionViewController.swift in Sources */,
+				BABD09761C8A768C00F16DFC /* webPviewCollectionViewController.swift in Sources */,
+				BABD09701C8A764E00F16DFC /* mediaartviewCollectionViewController.swift in Sources */,
+				BA55CADB1C8435DE00558E8E /* AppDelegate.swift in Sources */,
+				BABD09781C8A76A300F16DFC /* webDviewCollectionViewController.swift in Sources */,
+				BABD096A1C8A760100F16DFC /* movieviewCollectionViewController.swift in Sources */,
+				BA55CB091C8436A200558E8E /* resultCollectionViewController.swift in Sources */,
+				BABD09721C8A766000F16DFC /* maicuraviewCollectionViewController.swift in Sources */,
+				BABD096C1C8A761F00F16DFC /* androidviewCollectionViewController.swift in Sources */,
+				BABD096E1C8A762F00F16DFC /* DTMviewCollectionViewController.swift in Sources */,
+				BABD097A1C8A930100F16DFC /* selectViewController.swift in Sources */,
+				BABD09D81C8ABCBE00F16DFC /* selectCollectionViewController.swift in Sources */,
+				BABD09741C8A767500F16DFC /* nuityviewCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55CAE71C8435DE00558E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA55CAF01C8435DE00558E8E /* sevenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55CAF21C8435DE00558E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA55CAFB1C8435DE00558E8E /* sevenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA55CAED1C8435DE00558E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA55CAD61C8435DE00558E8E /* seven */;
+			targetProxy = BA55CAEC1C8435DE00558E8E /* PBXContainerItemProxy */;
+		};
+		BA55CAF81C8435DE00558E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA55CAD61C8435DE00558E8E /* seven */;
+			targetProxy = BA55CAF71C8435DE00558E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA55CADE1C8435DE00558E8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA55CADF1C8435DE00558E8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA55CAE41C8435DE00558E8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA55CAFD1C8435DE00558E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA55CAFE1C8435DE00558E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA55CB001C8435DE00558E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = seven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.seven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA55CB011C8435DE00558E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = seven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.seven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA55CB031C8435DE00558E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sevenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.sevenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seven.app/seven";
+			};
+			name = Debug;
+		};
+		BA55CB041C8435DE00558E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sevenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.sevenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seven.app/seven";
+			};
+			name = Release;
+		};
+		BA55CB061C8435DE00558E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sevenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.sevenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = seven;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA55CB071C8435DE00558E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sevenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.sevenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = seven;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA55CAD21C8435DE00558E8E /* Build configuration list for PBXProject "seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55CAFD1C8435DE00558E8E /* Debug */,
+				BA55CAFE1C8435DE00558E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA55CAFF1C8435DE00558E8E /* Build configuration list for PBXNativeTarget "seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55CB001C8435DE00558E8E /* Debug */,
+				BA55CB011C8435DE00558E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA55CB021C8435DE00558E8E /* Build configuration list for PBXNativeTarget "sevenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55CB031C8435DE00558E8E /* Debug */,
+				BA55CB041C8435DE00558E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA55CB051C8435DE00558E8E /* Build configuration list for PBXNativeTarget "sevenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55CB061C8435DE00558E8E /* Debug */,
+				BA55CB071C8435DE00558E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA55CACF1C8435DE00558E8E /* Project object */;
+}
