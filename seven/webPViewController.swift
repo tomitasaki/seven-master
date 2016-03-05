@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class webPviewCollectionViewController: UICollectionViewController {
+class webPviewCollectionViewController: UIViewController {
 
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
@@ -25,7 +25,7 @@ class webPviewCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
-        let number = Int(rand() % 11)
+        let number = Int(rand() % 12)
         
         meishiArray = [UIImage(named: "egawa_takayasu.jpg")!,//0
             UIImage(named: "yokobori_shouiti.jpg")!,//1
@@ -40,7 +40,7 @@ class webPviewCollectionViewController: UICollectionViewController {
             UIImage(named: "kanza_shion.jpg")!,//7
             
             UIImage(named: "inuzuka_shintarou.jpg")!,//8
-            UIImage(named: "konuma_rui.jpg")!,//9
+            UIImage(named: "onuma_rui.jpg")!,//9
             
             UIImage(named: "sudou_yuuta.jpg")!,//10
             UIImage(named: "iwai_atuki.jpg")!//11
@@ -79,7 +79,7 @@ class webPviewCollectionViewController: UICollectionViewController {
             
         }
         if number >= 0 && number <= 12{
-            cuorselabel.text = "iphone"
+            cuorselabel.text = "webP"
             
         }
     }
@@ -91,8 +91,7 @@ class webPviewCollectionViewController: UICollectionViewController {
         
         // Dispose of any resources that can be recreated.
     }
-    //@IBAction「パーツに何か変化を加えたときの動作をプログラムへ引き渡す」
-    //func()「関数が今回自分で作った自作関数」
+   
     @IBAction  func back(){
         self.dismissViewControllerAnimated(true, completion: nil)
         

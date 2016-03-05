@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class nuityviewCollectionViewController: UICollectionViewController {
+class nuityviewCollectionViewController: UIViewController {
 
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
@@ -28,13 +28,13 @@ class nuityviewCollectionViewController: UICollectionViewController {
         let number = Int(rand() % 17)
         
         meishiArray = [UIImage(named: "tokunaga_mio.jpg")!,//0
-            UIImage(named: "ooshima_maruna.jpg")!,//1
+            UIImage(named: "oosima_haruna.jpg")!,//1
             
             UIImage(named: "tyou_kaei.jpg")!,//2
             UIImage(named: "kimoto_shinnosuke.jpg")!,//3
             
             UIImage(named: "sugawara_sati.jpg")!,//4
-            UIImage(named: "izumi_ryousuke.jpg")!,//5
+            UIImage(named: "izumi_yuuma.jpg")!,//5
             
             UIImage(named: "abe_kaoruko.jpg")!,//6
             UIImage(named: "kaneko_yuuto.jpg")!,//7
@@ -66,18 +66,13 @@ class nuityviewCollectionViewController: UICollectionViewController {
             adanalabel.text =  "かえぴょん"
         }else if number == 3{
             adanalabel.text = "こたつ"
-            
-            
         }else if number == 4{
             adanalabel.text =  "わがちゃん"
         }else if number == 5{
             adanalabel.text =  "ペガサス"
         }else if number == 6{
             adanalabel.text =  "るこ"
-            
-            
-            
-        }else if number == 7{
+          }else if number == 7{
             adanalabel.text =  "かねちる"
         }else if number == 8 {
             adanalabel.text =  "はるやまん"
@@ -101,7 +96,7 @@ class nuityviewCollectionViewController: UICollectionViewController {
             
         }
         if number >= 0 && number <= 17{
-            cuorselabel.text = "iphone"
+            cuorselabel.text = "nuity"
             
         }
     }

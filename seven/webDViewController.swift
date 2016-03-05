@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class webDviewCollectionViewController: UICollectionViewController {
+class webDviewCollectionViewController: UIViewController {
 
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
@@ -25,9 +25,9 @@ class webDviewCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
-        let number = Int(rand() % 11)
+        let number = Int(rand() % 13)
         
-        meishiArray = [UIImage(named: "noguti_tihiro.jpg")!,//0
+        meishiArray = [UIImage(named: "noguti_tihio.jpg")!,//0
             UIImage(named: "hibino_madoka.jpg")!,//1
             
             UIImage(named: "hoshiba_kiyohiro.jpg")!,//2
@@ -78,10 +78,9 @@ class webDviewCollectionViewController: UICollectionViewController {
             adanalabel.text =  "ハク"
         }else {
             adanalabel.text = "ひらゆ"
-            
         }
-        if number >= 0 && number <= 12{
-            cuorselabel.text = "iphone"
+        if number >= 0 && number <= 13{
+            cuorselabel.text = "webD"
             
         }
     }

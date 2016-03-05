@@ -1,5 +1,5 @@
 //
-//  maicuraviewCollectionViewController.swift
+//  映像viewCollectionViewController.swift
 //  seven
 //
 //  Created by hmlab book pro on 2016/03/05.
@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class maicuraviewCollectionViewController: UICollectionViewController {
+class movieviewCollectionViewController: UIViewController {
 
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
@@ -27,20 +27,19 @@ class maicuraviewCollectionViewController: UICollectionViewController {
         
         let number = Int(rand() % 9)
         
-        meishiArray = [UIImage(named: "tutida_taiti.jpg")!,//0
-            UIImage(named: "kuroda_keiko.jpg")!,//1
+        meishiArray = [UIImage(named: "sakamoto_kazuumi.jpg")!,//0
+            UIImage(named: "kakino_yukiho.jpg")!,//1
             
-            UIImage(named: "inoue_ayano.jpg")!,//2
-            UIImage(named: "ikezoe_takeharu.jpg")!,//3
+            UIImage(named: "shimizu_yoshihiro.jpg")!,//2
+            UIImage(named: "utunomiya_kousuke.jpg")!,//3
             
-            UIImage(named: "ogawara_yuusuke.jpg")!,//4
-            UIImage(named: "saitou_hiro.jpg")!,//5
+            UIImage(named: "kawasaki_hayato.jpg")!,//4
+            UIImage(named: "nakamura_kyouhei.jpg")!,//5
             
-            UIImage(named: "tateishi_marina.jpg")!,//6
-            UIImage(named: "nishimura_masakazu.jpg")!,//7
+            UIImage(named: "hamamori_toshiyuki.jpg")!,//6
+            UIImage(named: "tubouti_akiho.jpg")!,//7
             
-            UIImage(named: "sano_hiroko.jpg")!,//8
-         
+            UIImage(named: "nishimura_hana.jpg")!,//8
             
         ]
         
@@ -49,33 +48,33 @@ class maicuraviewCollectionViewController: UICollectionViewController {
         
         
         if number == 0 {
-            adanalabel.text = "つっちー"
+            adanalabel.text = "かもかも"
         }else if number == 1{
-            adanalabel.text =  "つな"
+            adanalabel.text =  "ゆきほ"
         }else if number == 2{
-            adanalabel.text =  "あやにょ"
+            adanalabel.text =  "よしくん"
         }else if number == 3{
-            adanalabel.text = "ぬい"
+            adanalabel.text = "うつじま"
         }else if number == 4{
-            adanalabel.text =  "がおー"
+            adanalabel.text =  "ラゾーナ"
         }else if number == 5{
-            adanalabel.text =  "ヒーロー"
+            adanalabel.text =  "Hey"
         }else if number == 6{
-            adanalabel.text =  "まりすけ"
+            adanalabel.text =  "でと"
         }else if number == 7{
-            adanalabel.text =  "マーベル"
-       
+            adanalabel.text =  "ボツコ"
+
         }else {
-            adanalabel.text = "ひろ"
+            adanalabel.text = "ぴーや"
             
         }
-        if number >= 0 && number <= 8{
-            cuorselabel.text = "iphone"
+        if number >= 0 && number <= 9{
+            cuorselabel.text = "movie"
             
         }
     }
-
     
+      
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

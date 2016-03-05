@@ -1,5 +1,5 @@
 //
-//  mediaartviewCollectionViewController.swift
+//  maicuraviewCollectionViewController.swift
 //  seven
 //
 //  Created by hmlab book pro on 2016/03/05.
@@ -10,7 +10,8 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class mediaartviewCollectionViewController: UICollectionViewController {
+class maicuraviewCollectionViewController: UIViewController {
+
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
     @IBOutlet var adanalabel: UILabel!
@@ -24,17 +25,22 @@ class mediaartviewCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
-        let number = Int(rand() % 7)
+        let number = Int(rand() % 9)
         
-        meishiArray = [UIImage(named: "matumoto_kanako.jpg")!,//0
-            UIImage(named: "kajihara_yuuma.jpg")!,//1
+        meishiArray = [UIImage(named: "tutida_taichi.jpg")!,//0
+            UIImage(named: "kuroda_keiko.jpg")!,//1
             
-            UIImage(named: "harada_akira.jpg")!,//2
-            UIImage(named: "arai_takahiro.jpg")!,//3
+            UIImage(named: "inoue_ayano.jpg")!,//2
+            UIImage(named: "ikezoe_takaharu.jpg")!,//3
             
-            UIImage(named: "nohara_keisuke.jpg")!,//4
-            UIImage(named: "yamamoto_kenta.jpg")!,//5
-            UIImage(named: "inoue_minami.jpg")!,//6
+            UIImage(named: "ogawara_yousuke.jpg")!,//4
+            UIImage(named: "saitou_hiro.jpg")!,//5
+            
+            UIImage(named: "tateishi_marina.jpg")!,//6
+            UIImage(named: "nishimura_masakazu.jpg")!,//7
+            
+            UIImage(named: "sano_hiroko.jpg")!,//8
+         
             
         ]
         
@@ -43,35 +49,32 @@ class mediaartviewCollectionViewController: UICollectionViewController {
         
         
         if number == 0 {
-            adanalabel.text = "はなちゃん"
+            adanalabel.text = "つっちー"
         }else if number == 1{
-            adanalabel.text =  "かじ"
+            adanalabel.text =  "つな"
         }else if number == 2{
-            adanalabel.text =  "はらだおー"
+            adanalabel.text =  "あやにょ"
         }else if number == 3{
-            adanalabel.text =  "いせえび"
+            adanalabel.text = "ぬい"
         }else if number == 4{
-            adanalabel.text = "チーネ"
+            adanalabel.text =  "がおー"
         }else if number == 5{
-            adanalabel.text = "やまけん"
+            adanalabel.text =  "ヒーロー"
+        }else if number == 6{
+            adanalabel.text =  "まりすけ"
+        }else if number == 7{
+            adanalabel.text =  "マーベル"
+       
         }else {
-            adanalabel.text = "すしざんまい"
+            adanalabel.text = "ひろ"
             
         }
-        if number >= 0 && number <= 5{
-            cuorselabel.text = "iphone"
+        if number >= 0 && number <= 9{
+            cuorselabel.text = "micura"
             
         }
     }
-    
-    //   if number <= 10 {
-    //    cuorselabel.text = "iphone"
-    
-    //     cuorselabel.text = "iphone"
-    // }else if number == 1{
-    //    adanalabel.text =  "ゆーりんちー"
-    //}else {
-    //   adanalabel.text = "いっしー"
+
     
     
     override func didReceiveMemoryWarning() {

@@ -40,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4J1-Wv-zcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-61" y="130"/>
+            <point key="canvasLocation" x="-83" y="130"/>
         </scene>
         <!--Select View Controller-->
         <scene sceneID="gl8-ca-JXR">
@@ -58,83 +58,83 @@
                                 <rect key="frame" x="-12" y="0.0" width="358" height="589"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeT-Ac-yRR">
-                                <rect key="frame" x="209" y="251" width="60" height="30"/>
-                                <state key="normal" title="あいほん"/>
+                                <rect key="frame" x="218" y="251" width="42" height="30"/>
+                                <state key="normal" title="anime"/>
                                 <connections>
-                                    <action selector="butten1" destination="ztx-2i-0V7" eventType="touchUpInside" id="K3R-Y3-02S"/>
-                                    <segue destination="NQ8-2J-uai" kind="presentation" identifier="select10" modalTransitionStyle="coverVertical" id="1Xx-aI-O8O"/>
+                                    <action selector="butten2" destination="ztx-2i-0V7" eventType="touchUpInside" id="R7T-uM-34F"/>
+                                    <segue destination="NQ8-2J-uai" kind="presentation" identifier="select10" modalTransitionStyle="flipHorizontal" id="1Xx-aI-O8O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G45-zu-fCt">
-                                <rect key="frame" x="217" y="136" width="45" height="30"/>
-                                <state key="normal" title="あにめ"/>
+                                <rect key="frame" x="219" y="144" width="41" height="30"/>
+                                <state key="normal" title="movie"/>
                                 <connections>
-                                    <action selector="butten2" destination="ztx-2i-0V7" eventType="touchUpInside" id="eBD-W7-LCo"/>
-                                    <segue destination="pxf-w6-1rX" kind="presentation" identifier="select1" modalTransitionStyle="crossDissolve" id="H4m-eB-Dmw"/>
+                                    <action selector="butten1" destination="ztx-2i-0V7" eventType="touchUpInside" id="mHt-NF-ffT"/>
+                                    <segue destination="pxf-w6-1rX" kind="presentation" identifier="select2" modalTransitionStyle="flipHorizontal" id="H4m-eB-Dmw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5I-iL-HPH">
-                                <rect key="frame" x="69" y="144" width="33" height="30"/>
-                                <state key="normal" title="DTM"/>
+                                <rect key="frame" x="55" y="144" width="61" height="30"/>
+                                <state key="normal" title="mediaart"/>
                                 <connections>
                                     <action selector="butten5" destination="ztx-2i-0V7" eventType="touchUpInside" id="MWp-ko-KTa"/>
-                                    <segue destination="DB6-h8-gdt" kind="presentation" modalTransitionStyle="crossDissolve" id="VA2-rW-q60"/>
+                                    <segue destination="DB6-h8-gdt" kind="presentation" identifier="select4" modalTransitionStyle="flipHorizontal" id="VA2-rW-q60"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-6S-lfC">
+                                <rect key="frame" x="214" y="28" width="52" height="30"/>
+                                <state key="normal" title="android"/>
+                                <connections>
+                                    <action selector="butten3" destination="ztx-2i-0V7" eventType="touchUpInside" id="ddc-zH-yqU"/>
+                                    <segue destination="Nvp-qR-Qvu" kind="presentation" identifier="select1" modalTransitionStyle="flipHorizontal" id="bGz-T6-YDd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2h-X3-2BV">
-                                <rect key="frame" x="55" y="258" width="61" height="30"/>
-                                <state key="normal" title="mediaart"/>
+                                <rect key="frame" x="63" y="258" width="47" height="30"/>
+                                <state key="normal" title="micura"/>
                                 <connections>
                                     <action selector="butten6" destination="ztx-2i-0V7" eventType="touchUpInside" id="WnZ-Wt-1nx"/>
-                                    <segue destination="rwY-Aq-UQd" kind="presentation" modalTransitionStyle="coverVertical" id="3P1-HH-f47"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-1N-VYT">
-                                <rect key="frame" x="76" y="477" width="34" height="30"/>
-                                <state key="normal" title="unity"/>
-                                <connections>
-                                    <action selector="butten8" destination="ztx-2i-0V7" eventType="touchUpInside" id="PFD-3z-8VM"/>
-                                    <segue destination="WY5-us-MT1" kind="presentation" modalTransitionStyle="crossDissolve" id="924-AO-597"/>
+                                    <segue destination="rwY-Aq-UQd" kind="presentation" identifier="select5" modalTransitionStyle="flipHorizontal" id="3P1-HH-f47"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRZ-IT-YYD">
                                 <rect key="frame" x="214" y="477" width="46" height="34"/>
-                                <state key="normal" title="webP"/>
+                                <state key="normal" title="webD"/>
                                 <connections>
                                     <action selector="butten9" destination="ztx-2i-0V7" eventType="touchUpInside" id="X2W-Ps-ql0"/>
-                                    <segue destination="pOS-Qf-kXB" kind="presentation" modalTransitionStyle="coverVertical" id="b3K-Z5-66q"/>
+                                    <segue destination="pOS-Qf-kXB" kind="presentation" identifier="select8" modalTransitionStyle="flipHorizontal" id="b3K-Z5-66q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yq7-x5-khw">
-                                <rect key="frame" x="63" y="28" width="47" height="30"/>
-                                <state key="normal" title="androil"/>
+                                <rect key="frame" x="70" y="28" width="33" height="30"/>
+                                <state key="normal" title="DTM"/>
                                 <connections>
                                     <action selector="butten4" destination="ztx-2i-0V7" eventType="touchUpInside" id="SHH-87-9HY"/>
-                                    <segue destination="HbD-tc-baq" kind="presentation" identifier="select2" modalTransitionStyle="coverVertical" id="Ul4-MP-5rA"/>
+                                    <segue destination="HbD-tc-baq" kind="presentation" identifier="select3" modalTransitionStyle="flipHorizontal" id="Ul4-MP-5rA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DH3-ed-kZV">
-                                <rect key="frame" x="217" y="367" width="40" height="30"/>
-                                <state key="normal" title="webD"/>
+                                <rect key="frame" x="214" y="367" width="47" height="30"/>
+                                <state key="normal" title="iPhone"/>
                                 <connections>
                                     <action selector="butten10" destination="ztx-2i-0V7" eventType="touchUpInside" id="ilB-mp-4Xj"/>
-                                    <segue destination="dX0-Ii-o9o" kind="presentation" identifier="window" modalTransitionStyle="coverVertical" id="GEA-wD-mAI"/>
+                                    <segue destination="dX0-Ii-o9o" kind="presentation" identifier="select9" modalTransitionStyle="flipHorizontal" id="GEA-wD-mAI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAa-2h-zhv">
-                                <rect key="frame" x="55" y="367" width="55" height="30"/>
-                                <state key="normal" title="maicura"/>
+                                <rect key="frame" x="66" y="367" width="34" height="30"/>
+                                <state key="normal" title="unity"/>
                                 <connections>
                                     <action selector="butten7" destination="ztx-2i-0V7" eventType="touchUpInside" id="6wK-Bs-KXj"/>
-                                    <segue destination="MgY-Gh-3Q2" kind="presentation" identifier="select6" modalTransitionStyle="coverVertical" id="Pg7-XY-4SA"/>
+                                    <segue destination="MgY-Gh-3Q2" kind="presentation" identifier="select6" modalTransitionStyle="flipHorizontal" id="Pg7-XY-4SA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-6S-lfC">
-                                <rect key="frame" x="230" y="28" width="30" height="30"/>
-                                <state key="normal" title="映像"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-1N-VYT">
+                                <rect key="frame" x="66" y="470" width="38" height="30"/>
+                                <state key="normal" title="webP"/>
                                 <connections>
-                                    <action selector="butten3" destination="ztx-2i-0V7" eventType="touchUpInside" id="ddc-zH-yqU"/>
-                                    <segue destination="Nvp-qR-Qvu" kind="presentation" identifier="select1" modalTransitionStyle="crossDissolve" id="bGz-T6-YDd"/>
+                                    <action selector="butten8" destination="ztx-2i-0V7" eventType="touchUpInside" id="PFD-3z-8VM"/>
+                                    <segue destination="WY5-us-MT1" kind="presentation" identifier="select7" modalTransitionStyle="flipHorizontal" id="924-AO-597"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -178,14 +178,14 @@
                                 <rect key="frame" x="60" y="189" width="227" height="164"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEH-LV-kGE">
-                                <rect key="frame" x="119" y="422" width="100" height="21"/>
+                                <rect key="frame" x="120" y="415" width="100" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtT-1O-uce">
-                                <rect key="frame" x="137" y="498" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="156" y="498" width="34" height="30"/>
+                                <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back" destination="HbD-tc-baq" eventType="touchUpInside" id="rpd-Ob-ywy"/>
                                 </connections>
@@ -230,14 +230,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivo-uK-PDD">
-                                <rect key="frame" x="108" y="414" width="104" height="25"/>
+                                <rect key="frame" x="108" y="408" width="104" height="31"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQg-gm-6Vi">
-                                <rect key="frame" x="140" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="146" y="490" width="34" height="30"/>
+                                <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back" destination="Nvp-qR-Qvu" eventType="touchUpInside" id="jYO-zS-zcZ"/>
                                 </connections>
@@ -276,24 +276,24 @@
                                 <rect key="frame" x="49" y="174" width="226" height="167"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quf-Qh-GRE">
-                                <rect key="frame" x="110" y="413" width="101" height="21"/>
+                                <rect key="frame" x="110" y="400" width="101" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7y-nO-qVv">
-                                <rect key="frame" x="139" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="back" destination="pxf-w6-1rX" eventType="touchUpInside" id="APR-ih-VRe"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdT-JN-aFX">
                                 <rect key="frame" x="49" y="74" width="226" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7y-nO-qVv">
+                                <rect key="frame" x="145" y="484" width="34" height="30"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back" destination="pxf-w6-1rX" eventType="touchUpInside" id="APR-ih-VRe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -307,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTa-qy-Atu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756" y="12"/>
+            <point key="canvasLocation" x="1277" y="-587"/>
         </scene>
         <!--Mediaartview Collection View Controller-->
         <scene sceneID="oGT-ZC-6ey">
@@ -340,8 +340,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYg-bw-Xwa">
-                                <rect key="frame" x="137" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="143" y="490" width="34" height="30"/>
+                                <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back" destination="rwY-Aq-UQd" eventType="touchUpInside" id="MK3-NA-S05"/>
                                 </connections>
@@ -379,6 +379,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0fX-r4-OWK">
                                 <rect key="frame" x="49" y="190" width="228" height="162"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xU-PH-COd">
+                                <rect key="frame" x="49" y="95" width="228" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtS-Ux-4Ty">
                                 <rect key="frame" x="105" y="415" width="103" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -386,18 +392,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfn-X0-UmS">
-                                <rect key="frame" x="140" y="500" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="143" y="493" width="34" height="30"/>
+                                <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back" destination="DB6-h8-gdt" eventType="touchUpInside" id="Afu-1a-afL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xU-PH-COd">
-                                <rect key="frame" x="49" y="95" width="228" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -437,15 +437,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH3-Ny-OH5">
-                                <rect key="frame" x="105" y="413" width="99" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH3-Ny-OH5">
+                                <rect key="frame" x="101" y="405" width="103" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EZ-3I-SCN">
-                                <rect key="frame" x="134" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="137" y="490" width="34" height="30"/>
+                                <state key="normal" title="back"/>
                                 <connections>
                                     <action selector="back" destination="MgY-Gh-3Q2" eventType="touchUpInside" id="WXO-fe-qHc"/>
                                 </connections>
@@ -489,16 +489,19 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qao-rc-U5e">
-                                <rect key="frame" x="137" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W93-hc-Dwp">
-                                <rect key="frame" x="106" y="414" width="106" height="21"/>
+                                <rect key="frame" x="106" y="405" width="106" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qao-rc-U5e">
+                                <rect key="frame" x="147" y="490" width="34" height="30"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back" destination="WY5-us-MT1" eventType="touchUpInside" id="qKL-aX-VaV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -512,7 +515,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NkQ-Qf-KJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="292" y="694"/>
+            <point key="canvasLocation" x="272" y="813"/>
         </scene>
         <!--Web Pview Collection View Controller-->
         <scene sceneID="C2M-Je-j1g">
@@ -533,7 +536,7 @@
                                 <rect key="frame" x="49" y="182" width="230" height="163"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2p-hC-JJZ">
-                                <rect key="frame" x="108" y="415" width="100" height="21"/>
+                                <rect key="frame" x="108" y="406" width="100" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -545,8 +548,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnQ-us-ytD">
-                                <rect key="frame" x="135" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="143" y="490" width="34" height="30"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back" destination="pOS-Qf-kXB" eventType="touchUpInside" id="iyc-lA-afe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -561,12 +567,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YYZ-GO-epc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="699" y="683"/>
+            <point key="canvasLocation" x="621" y="833"/>
         </scene>
-        <!--Web Pview Collection View Controller-->
+        <!--Web Dview Collection View Controller-->
         <scene sceneID="mCR-eE-eaO">
             <objects>
-                <viewController id="dX0-Ii-o9o" customClass="webPviewCollectionViewController" customModule="seven" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dX0-Ii-o9o" customClass="webDviewCollectionViewController" customModule="seven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9io-pI-dLI"/>
                         <viewControllerLayoutGuide type="bottom" id="piI-cH-ZKv"/>
@@ -581,22 +587,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ttj-B9-pKf">
                                 <rect key="frame" x="50" y="182" width="230" height="163"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CB4-gc-jf7">
-                                <rect key="frame" x="108" y="414" width="102" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iP-pE-4E0">
-                                <rect key="frame" x="137" y="490" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BT6-IX-8uE">
                                 <rect key="frame" x="50" y="89" width="230" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CB4-gc-jf7">
+                                <rect key="frame" x="108" y="405" width="102" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iP-pE-4E0">
+                                <rect key="frame" x="143" y="490" width="34" height="30"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="back" destination="dX0-Ii-o9o" eventType="touchUpInside" id="b1w-Qd-Cg2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -610,7 +619,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vPs-zr-DPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1124" y="699"/>
+            <point key="canvasLocation" x="966" y="813"/>
         </scene>
         <!--Resultview Collection View Controller-->
         <scene sceneID="RrJ-3u-Ms3">
@@ -645,7 +654,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eG4-lX-1on">
                                 <rect key="frame" x="127" y="483" width="48" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="もどる">
+                                <state key="normal" title="back">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -665,7 +674,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0f-Zg-ASz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1124" y="19"/>
+            <point key="canvasLocation" x="1691" y="-567"/>
         </scene>
     </scenes>
     <resources>

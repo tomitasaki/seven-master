@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class animeviewCollectionViewController: UICollectionViewController {
+class animeviewCollectionViewController: UIViewController {
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
     @IBOutlet var adanalabel: UILabel!
@@ -28,7 +28,7 @@ class animeviewCollectionViewController: UICollectionViewController {
         
         meishiArray = [UIImage(named: "kanai_keita.jpg")!,//0
             UIImage(named: "yamaguti_tae.jpg")!,//1
-            UIImage(named: "satou_shoutarou")!,//2
+            UIImage(named: "satou_shoutarou.jpg")!,//2
             UIImage(named: "tunehiro_tomoka.jpg")!,//3
             
             
@@ -52,7 +52,7 @@ class animeviewCollectionViewController: UICollectionViewController {
             adanalabel.text = "いわのこ"
         }
         if number >= 0 && number <= 5{
-            cuorselabel.text = "iphone"
+            cuorselabel.text = "anime"
             
         }
     }

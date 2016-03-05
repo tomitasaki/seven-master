@@ -36,7 +36,7 @@ class resultviewCollectionViewController: UIViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
-        let number = Int(rand() % 11)
+        let number = Int(rand() % 13)
         
         meishiArray = [UIImage(named: "hanada_nana.jpg")!,//0
             UIImage(named: "sekine_yuri.jpg")!,//1
@@ -86,21 +86,11 @@ class resultviewCollectionViewController: UIViewController {
             adanalabel.text = "いっしー"
             
         }
-        if number >= 0 && number <= 12{
+        if number >= 0 && number <= 13{
             cuorselabel.text = "iphone"
             
         }
     }
-    
-    //   if number <= 10 {
-    //    cuorselabel.text = "iphone"
-    
-    //     cuorselabel.text = "iphone"
-    // }else if number == 1{
-    //    adanalabel.text =  "ゆーりんちー"
-    //}else {
-    //   adanalabel.text = "いっしー"
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -109,8 +99,17 @@ class resultviewCollectionViewController: UIViewController {
     }
     //@IBAction「パーツに何か変化を加えたときの動作をプログラムへ引き渡す」
     //func()「関数が今回自分で作った自作関数」
+    //  self.dismissViewControllerAnimated(true, completion: nil)
+    //「present modally　戻る」
+    //インスタンスを取得するクラスメソッドback()を定義し、戻り値をSelf
+
     @IBAction  func back(){
         self.dismissViewControllerAnimated(true, completion: nil)
+        //モーダルによる画面の切り替わりには4つのスタイル
+        //CoverVertical：下からニョキッと
+        //CrossDissolve：ふわっとフェードイン
+        //FlipHorizontal：忍者屋敷の隠し扉みたい
+        //PartialCurl：ペラっとめくる
         
     }
     

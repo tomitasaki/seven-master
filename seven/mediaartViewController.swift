@@ -1,5 +1,5 @@
 //
-//  DTMviewCollectionViewController.swift
+//  mediaartviewCollectionViewController.swift
 //  seven
 //
 //  Created by hmlab book pro on 2016/03/05.
@@ -10,8 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class DTMviewCollectionViewController: UICollectionViewController {
-
+class mediaartviewCollectionViewController: UIViewController {
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
     @IBOutlet var adanalabel: UILabel!
@@ -25,14 +24,17 @@ class DTMviewCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
-        let number = Int(rand() % 5)
+        let number = Int(rand() % 7)
         
-        meishiArray = [UIImage(named: "eguti_misa.jpg")!,//0
-            UIImage(named: "murata_kento.jpg")!,//1
-            UIImage(named: "itou_miho.jpg")!,//2
-            UIImage(named: "koujyou_takuma.jpg")!,//3
-            UIImage(named: "inoue_yoshimi.jpg")!,//4
-           
+        meishiArray = [UIImage(named: "matumoto_kanako.jpg")!,//0
+            UIImage(named: "kajihara_yuuma.jpg")!,//1
+            
+            UIImage(named: "harada_akira.jpg")!,//2
+            UIImage(named: "arai_takahiro.jpg")!,//3
+            
+            UIImage(named: "nohara_keisuke.jpg")!,//4
+            UIImage(named: "yamamoto_kenta.jpg")!,//5
+            UIImage(named: "inoue_minami.jpg")!,//6
             
         ]
         
@@ -41,25 +43,28 @@ class DTMviewCollectionViewController: UICollectionViewController {
         
         
         if number == 0 {
-            adanalabel.text = "ねむみん"
+            adanalabel.text = "はなちゃん"
         }else if number == 1{
-            adanalabel.text =  "そんちょう"
+            adanalabel.text =  "かじ"
         }else if number == 2{
-            adanalabel.text =  "いとさん"
+            adanalabel.text =  "はらだおー"
         }else if number == 3{
-            adanalabel.text = "工場長"
-
+            adanalabel.text =  "いせえび"
+        }else if number == 4{
+            adanalabel.text = "チーネ"
+        }else if number == 5{
+            adanalabel.text = "やまけん"
         }else {
-            adanalabel.text = "よしみん"
+            adanalabel.text = "すしざんまい"
             
         }
-        if number >= 0 && number <= 5{
-            cuorselabel.text = "iphone"
+        if number >= 0 && number <= 7{
+            cuorselabel.text = "mediaart"
             
         }
     }
     
-
+ 
     
     
     override func didReceiveMemoryWarning() {

@@ -14,7 +14,7 @@
 		BA55CAE51C8435DE00558E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */; };
 		BA55CAF01C8435DE00558E8E /* sevenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CAEF1C8435DE00558E8E /* sevenTests.swift */; };
 		BA55CAFB1C8435DE00558E8E /* sevenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */; };
-		BA55CB091C8436A200558E8E /* resultCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */; };
+		BA55CB091C8436A200558E8E /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CB081C8436A200558E8E /* resultViewController.swift */; };
 		BABD08F01C8A708900F16DFC /* asada_shion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08AF1C8A708900F16DFC /* asada_shion.jpg */; };
 		BABD08F11C8A708900F16DFC /* hamataka_kotone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B01C8A708900F16DFC /* hamataka_kotone.jpg */; };
 		BABD08F21C8A708900F16DFC /* hukai_yuuta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD08B11C8A708900F16DFC /* hukai_yuuta.jpg */; };
@@ -102,15 +102,15 @@
 		BABD09621C8A70A400F16DFC /* satou_shoutarou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09471C8A70A400F16DFC /* satou_shoutarou.jpg */; };
 		BABD09631C8A70A400F16DFC /* tunehiro_tomoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09481C8A70A400F16DFC /* tunehiro_tomoka.jpg */; };
 		BABD09641C8A70A400F16DFC /* yamaguti_tae.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BABD09491C8A70A400F16DFC /* yamaguti_tae.jpg */; };
-		BABD09681C8A75DE00F16DFC /* animeviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */; };
-		BABD096A1C8A760100F16DFC /* movieviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */; };
-		BABD096C1C8A761F00F16DFC /* androidviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096B1C8A761F00F16DFC /* androidviewCollectionViewController.swift */; };
-		BABD096E1C8A762F00F16DFC /* DTMviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096D1C8A762F00F16DFC /* DTMviewCollectionViewController.swift */; };
-		BABD09701C8A764E00F16DFC /* mediaartviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096F1C8A764E00F16DFC /* mediaartviewCollectionViewController.swift */; };
-		BABD09721C8A766000F16DFC /* maicuraviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09711C8A766000F16DFC /* maicuraviewCollectionViewController.swift */; };
-		BABD09741C8A767500F16DFC /* nuityviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09731C8A767500F16DFC /* nuityviewCollectionViewController.swift */; };
-		BABD09761C8A768C00F16DFC /* webPviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09751C8A768C00F16DFC /* webPviewCollectionViewController.swift */; };
-		BABD09781C8A76A300F16DFC /* webDviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09771C8A76A300F16DFC /* webDviewCollectionViewController.swift */; };
+		BABD09681C8A75DE00F16DFC /* animeviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09671C8A75DE00F16DFC /* animeviewViewController.swift */; };
+		BABD096A1C8A760100F16DFC /* movieviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09691C8A760100F16DFC /* movieviewViewController.swift */; };
+		BABD096C1C8A761F00F16DFC /* androidviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096B1C8A761F00F16DFC /* androidviewViewController.swift */; };
+		BABD096E1C8A762F00F16DFC /* DTMviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096D1C8A762F00F16DFC /* DTMviewViewController.swift */; };
+		BABD09701C8A764E00F16DFC /* mediaartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD096F1C8A764E00F16DFC /* mediaartViewController.swift */; };
+		BABD09721C8A766000F16DFC /* maicuraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09711C8A766000F16DFC /* maicuraViewController.swift */; };
+		BABD09741C8A767500F16DFC /* nuityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09731C8A767500F16DFC /* nuityViewController.swift */; };
+		BABD09761C8A768C00F16DFC /* webPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09751C8A768C00F16DFC /* webPViewController.swift */; };
+		BABD09781C8A76A300F16DFC /* webDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09771C8A76A300F16DFC /* webDViewController.swift */; };
 		BABD097A1C8A930100F16DFC /* selectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD09791C8A930100F16DFC /* selectViewController.swift */; };
 		BABD09B41C8AA81400F16DFC /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BABD098C1C8AA81400F16DFC /* Contents.json */; };
 		BABD09B51C8AA81400F16DFC /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = BABD098D1C8AA81400F16DFC /* Icon-40.png */; };
@@ -187,7 +187,7 @@
 		BA55CAF61C8435DE00558E8E /* sevenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sevenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenUITests.swift; sourceTree = "<group>"; };
 		BA55CAFC1C8435DE00558E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultCollectionViewController.swift; sourceTree = "<group>"; };
+		BA55CB081C8436A200558E8E /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		BABD08AF1C8A708900F16DFC /* asada_shion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asada_shion.jpg; sourceTree = "<group>"; };
 		BABD08B01C8A708900F16DFC /* hamataka_kotone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamataka_kotone.jpg; sourceTree = "<group>"; };
 		BABD08B11C8A708900F16DFC /* hukai_yuuta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hukai_yuuta.jpg; sourceTree = "<group>"; };
@@ -275,15 +275,15 @@
 		BABD09471C8A70A400F16DFC /* satou_shoutarou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = satou_shoutarou.jpg; sourceTree = "<group>"; };
 		BABD09481C8A70A400F16DFC /* tunehiro_tomoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tunehiro_tomoka.jpg; sourceTree = "<group>"; };
 		BABD09491C8A70A400F16DFC /* yamaguti_tae.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamaguti_tae.jpg; sourceTree = "<group>"; };
-		BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animeviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD096B1C8A761F00F16DFC /* androidviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = androidviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD096D1C8A762F00F16DFC /* DTMviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTMviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD096F1C8A764E00F16DFC /* mediaartviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mediaartviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD09711C8A766000F16DFC /* maicuraviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maicuraviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD09731C8A767500F16DFC /* nuityviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nuityviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD09751C8A768C00F16DFC /* webPviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webPviewCollectionViewController.swift; sourceTree = "<group>"; };
-		BABD09771C8A76A300F16DFC /* webDviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webDviewCollectionViewController.swift; sourceTree = "<group>"; };
+		BABD09671C8A75DE00F16DFC /* animeviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animeviewViewController.swift; sourceTree = "<group>"; };
+		BABD09691C8A760100F16DFC /* movieviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieviewViewController.swift; sourceTree = "<group>"; };
+		BABD096B1C8A761F00F16DFC /* androidviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = androidviewViewController.swift; sourceTree = "<group>"; };
+		BABD096D1C8A762F00F16DFC /* DTMviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTMviewViewController.swift; sourceTree = "<group>"; };
+		BABD096F1C8A764E00F16DFC /* mediaartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mediaartViewController.swift; sourceTree = "<group>"; };
+		BABD09711C8A766000F16DFC /* maicuraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maicuraViewController.swift; sourceTree = "<group>"; };
+		BABD09731C8A767500F16DFC /* nuityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nuityViewController.swift; sourceTree = "<group>"; };
+		BABD09751C8A768C00F16DFC /* webPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webPViewController.swift; sourceTree = "<group>"; };
+		BABD09771C8A76A300F16DFC /* webDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webDViewController.swift; sourceTree = "<group>"; };
 		BABD09791C8A930100F16DFC /* selectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectViewController.swift; sourceTree = "<group>"; };
 		BABD098C1C8AA81400F16DFC /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		BABD098D1C8AA81400F16DFC /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
@@ -308,7 +308,7 @@
 		BABD09A01C8AA81400F16DFC /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "windows-1149018_1280.jpg"; sourceTree = "<group>"; };
 		BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 15.03.22.png"; sourceTree = "<group>"; };
-		BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C789_doornomukou.jpg; sourceTree = "<group>"; };
+		BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = C789_doornomukou.jpg; path = iphone/C789_doornomukou.jpg; sourceTree = "<group>"; };
 		BABD09DD1C8AC67300F16DFC /* スクリーンショット 2016-03-05 16.45.43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 16.45.43.png"; sourceTree = "<group>"; };
 		BABD09DF1C8AC75800F16DFC /* スクリーンショット 2016-03-05 16.46.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 16.46.12.png"; sourceTree = "<group>"; };
 		BABD09E11C8AC81400F16DFC /* スクリーンショット 2016-03-05 16.51.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-03-05 16.51.27.png"; sourceTree = "<group>"; };
@@ -388,6 +388,7 @@
 		BA55CAD91C8435DE00558E8E /* seven */ = {
 			isa = PBXGroup;
 			children = (
+				BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */,
 				BABD09D31C8AADAD00F16DFC /* windows-1149018_1280.jpg */,
 				BABD09D51C8AAE4500F16DFC /* スクリーンショット 2016-03-05 15.03.22.png */,
 				BAD4C3971C874BA100540727 /* book.png */,
@@ -402,16 +403,16 @@
 				BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */,
 				BABD09791C8A930100F16DFC /* selectViewController.swift */,
 				BA55CAE61C8435DE00558E8E /* Info.plist */,
-				BABD09671C8A75DE00F16DFC /* animeviewCollectionViewController.swift */,
-				BABD09691C8A760100F16DFC /* movieviewCollectionViewController.swift */,
-				BABD096B1C8A761F00F16DFC /* androidviewCollectionViewController.swift */,
-				BABD096D1C8A762F00F16DFC /* DTMviewCollectionViewController.swift */,
-				BABD096F1C8A764E00F16DFC /* mediaartviewCollectionViewController.swift */,
-				BABD09711C8A766000F16DFC /* maicuraviewCollectionViewController.swift */,
-				BABD09731C8A767500F16DFC /* nuityviewCollectionViewController.swift */,
-				BABD09751C8A768C00F16DFC /* webPviewCollectionViewController.swift */,
-				BABD09771C8A76A300F16DFC /* webDviewCollectionViewController.swift */,
-				BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */,
+				BABD09671C8A75DE00F16DFC /* animeviewViewController.swift */,
+				BABD09691C8A760100F16DFC /* movieviewViewController.swift */,
+				BABD096B1C8A761F00F16DFC /* androidviewViewController.swift */,
+				BABD096D1C8A762F00F16DFC /* DTMviewViewController.swift */,
+				BABD096F1C8A764E00F16DFC /* mediaartViewController.swift */,
+				BABD09711C8A766000F16DFC /* maicuraViewController.swift */,
+				BABD09731C8A767500F16DFC /* nuityViewController.swift */,
+				BABD09751C8A768C00F16DFC /* webPViewController.swift */,
+				BABD09771C8A76A300F16DFC /* webDViewController.swift */,
+				BA55CB081C8436A200558E8E /* resultViewController.swift */,
 			);
 			path = seven;
 			sourceTree = "<group>";
@@ -634,7 +635,6 @@
 		BAD4C3801C86A7CC00540727 /* iphone */ = {
 			isa = PBXGroup;
 			children = (
-				BABD09DB1C8AC65F00F16DFC /* C789_doornomukou.jpg */,
 				BAD4C3811C86A7CC00540727 /* hanada_nana.jpg */,
 				BAD4C3821C86A7CC00540727 /* hujii_yousuke.jpg */,
 				BAD4C3831C86A7CC00540727 /* hukuda_karuna.jpg */,
@@ -721,7 +721,6 @@
 				TargetAttributes = {
 					BA55CAD61C8435DE00558E8E = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = PFB74RZH59;
 					};
 					BA55CAEA1C8435DE00558E8E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -916,19 +915,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABD09681C8A75DE00F16DFC /* animeviewCollectionViewController.swift in Sources */,
+				BABD09681C8A75DE00F16DFC /* animeviewViewController.swift in Sources */,
 				BA55CADD1C8435DE00558E8E /* ViewController.swift in Sources */,
-				BABD09761C8A768C00F16DFC /* webPviewCollectionViewController.swift in Sources */,
-				BABD09701C8A764E00F16DFC /* mediaartviewCollectionViewController.swift in Sources */,
+				BABD09761C8A768C00F16DFC /* webPViewController.swift in Sources */,
+				BABD09701C8A764E00F16DFC /* mediaartViewController.swift in Sources */,
 				BA55CADB1C8435DE00558E8E /* AppDelegate.swift in Sources */,
-				BABD09781C8A76A300F16DFC /* webDviewCollectionViewController.swift in Sources */,
-				BABD096A1C8A760100F16DFC /* movieviewCollectionViewController.swift in Sources */,
-				BA55CB091C8436A200558E8E /* resultCollectionViewController.swift in Sources */,
-				BABD09721C8A766000F16DFC /* maicuraviewCollectionViewController.swift in Sources */,
-				BABD096C1C8A761F00F16DFC /* androidviewCollectionViewController.swift in Sources */,
-				BABD096E1C8A762F00F16DFC /* DTMviewCollectionViewController.swift in Sources */,
+				BABD09781C8A76A300F16DFC /* webDViewController.swift in Sources */,
+				BABD096A1C8A760100F16DFC /* movieviewViewController.swift in Sources */,
+				BA55CB091C8436A200558E8E /* resultViewController.swift in Sources */,
+				BABD09721C8A766000F16DFC /* maicuraViewController.swift in Sources */,
+				BABD096C1C8A761F00F16DFC /* androidviewViewController.swift in Sources */,
+				BABD096E1C8A762F00F16DFC /* DTMviewViewController.swift in Sources */,
 				BABD097A1C8A930100F16DFC /* selectViewController.swift in Sources */,
-				BABD09741C8A767500F16DFC /* nuityviewCollectionViewController.swift in Sources */,
+				BABD09741C8A767500F16DFC /* nuityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,6 +1067,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seven/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.seven";
@@ -1079,6 +1079,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seven/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.seven";

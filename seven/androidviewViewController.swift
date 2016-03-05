@@ -10,8 +10,8 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class androidviewCollectionViewController: UICollectionViewController {
-
+class androidviewCollectionViewController: UIViewController {
+    
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
     @IBOutlet var adanalabel: UILabel!
@@ -25,7 +25,7 @@ class androidviewCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
-        let number = Int(rand() % 11)
+        let number = Int(rand() % 10)
         
         meishiArray = [UIImage(named: "hamataka_kotone.jpg")!,//0
             UIImage(named: "kokushi_seiya.jpg")!,//1
@@ -40,14 +40,12 @@ class androidviewCollectionViewController: UICollectionViewController {
             UIImage(named: "asada_shion.jpg")!,//7
             
             UIImage(named: "sasaki_shunsuke.jpg")!,//8
-            UIImage(named: "nakashima_haruka.jpg")!,//9
-
+            UIImage(named: "nakajima_haruka.jpg")!,//9
+            
             
         ]
         
         meishiImageView.image = meishiArray[number]
-        
-        
         
         if number == 0 {
             adanalabel.text = "こっちゃん"
@@ -67,20 +65,18 @@ class androidviewCollectionViewController: UICollectionViewController {
             adanalabel.text =  "くろこ"
         }else if number == 8 {
             adanalabel.text =  "SUBWAY"
-            
-            
-
         }else {
             adanalabel.text = "はるさめ"
-            
         }
-        if number >= 0 && number <= 12{
-            cuorselabel.text = "iphone"
+        
+        
+        if number >= 0 && number <= 10{
+            cuorselabel.text = "android"
             
         }
     }
     
-      
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
